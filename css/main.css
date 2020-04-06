@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5 {
 
 /* The side navigation menu */
 .sidenav {
-  width: 0;
+  width: 270px;
   /* 0 width - change this with JavaScript */
   position: fixed;
   /* Stay in place */
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5 {
   /* Stay on top */
   top: 0;
   /* Stay at the top */
-  right: 0;
+  right: -270px;
   background-color: #111;
   /* Black*/
   overflow-x: hidden;
