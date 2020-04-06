@@ -197,8 +197,8 @@ a:hover {
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     .navbar {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
     }
   }
   .section-slider {
@@ -224,6 +224,10 @@ a:hover {
     span {
       font-size: 34px;
     }
+  }
+
+  .sidenav a {
+    padding: 12px 30px 12px 25px;
   }
 
   .section-one {
