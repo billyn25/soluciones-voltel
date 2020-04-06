@@ -16,6 +16,7 @@ body {
 header {
   padding-top: 0.00px;
   .navbar {
+    align-items: start !important;
     height: auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -118,7 +119,7 @@ a:hover {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 50px;
+  top: 0px;
   right: -5px;
   font-size: 40px;
 }
@@ -190,7 +191,7 @@ a:hover {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav a {font-size: 18px;}
+
 }
 
 /* css para movil */
