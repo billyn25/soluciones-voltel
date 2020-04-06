@@ -121,8 +121,8 @@ a:hover {
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   position: relative;
-  top: -25px;
-  right: 0;
+  top: -20px;
+  right: -10px;
   transition: margin-right .5s;
 
   span {
