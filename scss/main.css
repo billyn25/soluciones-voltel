@@ -96,6 +96,10 @@ a:hover {
   height: auto;
 }
 
+.sidenav a:nth-child(2) {
+  padding-top: 6px;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #292929;
