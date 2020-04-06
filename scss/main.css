@@ -112,6 +112,9 @@ a:hover {
   right: 0;
   transition: margin-right 0.5s;
 }
+#main span:hover {
+  color: #b21123 !important;
+}
 
 .uk-card {
   height: auto;

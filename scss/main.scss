@@ -107,6 +107,10 @@ a:hover {
   top: -25px;
   right: 0;
   transition: margin-right .5s;
+
+  span:hover{
+    color: #b21123 !important;
+  }
 }
 
 .uk-card {
