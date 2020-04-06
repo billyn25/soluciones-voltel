@@ -15,6 +15,7 @@ function closeNav() {
 //evento para el header nav, cuando haces scroll
 let imgLogo = document.getElementById("logo");
 let main = document.getElementById("main");
+let buttonX = document.getElementById("buttonX");
 $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -23,11 +24,13 @@ $(document).ready(function() {
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width='80px'
             imgLogo.style.height='auto'
+            buttonX.style.top='15px'
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
             imgLogo.style.width='110'
             imgLogo.style.height='auto'
+            buttonX.style.top='50px'
         }
     });
 });
