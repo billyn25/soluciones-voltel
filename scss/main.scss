@@ -15,6 +15,10 @@ body {
 
 header {
   padding-top: 0.00px;
+  .navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 h1, h2, h3, h4, h5 {
@@ -191,6 +195,12 @@ a:hover {
 
 /* css para movil */
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    .navbar {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
   .section-slider {
     img {
       object-position: 80% 50%; /* default value: image is centered*/
