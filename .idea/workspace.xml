@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f933d2-fcce-4d1b-898b-38dc14b882da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/cctv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/domotica_section.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/electricidad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/red_seccion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/voltel_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wifi_section.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586157039674</updated>
       <workItem from="1586157040977" duration="11263000" />
-      <workItem from="1586171955838" duration="7929000" />
+      <workItem from="1586171955838" duration="8069000" />
     </task>
     <servers />
   </component>
