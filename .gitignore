@@ -1,5 +1,5 @@
 .idea
-/node_modules
+node_modules
 scss
 package-lock.json
 package.json
