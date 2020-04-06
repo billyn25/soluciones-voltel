@@ -23,13 +23,11 @@ $(document).ready(function() {
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width='80px'
             imgLogo.style.height='auto'
-            main.style.top='0'
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
             imgLogo.style.width='110'
             imgLogo.style.height='auto'
-            main.style.top='-20px'
         }
     });
 });
