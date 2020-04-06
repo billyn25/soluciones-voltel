@@ -13,13 +13,23 @@ function closeNav() {
 }
 
 //evento para el header nav, cuando haces scroll
+let imgLogo = document.getElementById("logo");
+let main = document.getElementById("main");
 $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll > window.innerHeight - 90) {
+        if (scroll > window.innerHeight - 150) {
             $("header nav").addClass('bg-primary');
+            imgLogo.src = "img/voltel_2.png";
+            imgLogo.style.width='80px'
+            imgLogo.style.height='auto'
+            main.style.top='0'
         } else {
             $("header nav").removeClass('bg-primary');
+            imgLogo.src = "img/voltel.png";
+            imgLogo.style.width='110'
+            imgLogo.style.height='auto'
+            main.style.top='-25px'
         }
     });
 });

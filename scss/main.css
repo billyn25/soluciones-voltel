@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5 {
   padding: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .active {
   color: white;
 }
@@ -67,7 +71,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   /* Stay at the top */
   right: -270px;
-  background-color: #111;
+  background-color: #b21123;
   /* Black*/
   overflow-x: hidden;
   /* Disable horizontal scroll */
@@ -82,7 +86,7 @@ h1, h2, h3, h4, h5 {
   padding: 8px 32px 8px 8px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
   height: auto;
@@ -107,6 +111,29 @@ h1, h2, h3, h4, h5 {
   top: -25px;
   right: 0;
   transition: margin-right 0.5s;
+}
+
+.uk-card {
+  height: auto;
+}
+.uk-card .uk-card-body {
+  padding: 20px 30px 20px 30px;
+}
+.uk-card .uk-card-body h3 {
+  padding-bottom: 7px;
+}
+.uk-card img {
+  object-fit: cover;
+  height: 275px;
+  width: 100%;
+}
+
+.uk-card-title {
+  margin-bottom: 7px;
+}
+
+.section-one {
+  padding: 0 60px 0 60px;
 }
 
 .float, .float2 {
@@ -163,6 +190,10 @@ h1, h2, h3, h4, h5 {
   }
   .section-slider h1 {
     font-size: 1.5rem;
+  }
+
+  .section-one {
+    padding: 0 30px 0 30px;
   }
 
   .d-noneW {
