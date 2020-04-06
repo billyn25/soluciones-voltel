@@ -29,7 +29,7 @@ $(document).ready(function() {
             imgLogo.src = "img/voltel.png";
             imgLogo.style.width='110'
             imgLogo.style.height='auto'
-            main.style.top='-25px'
+            main.style.top='-20px'
         }
     });
 });
