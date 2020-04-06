@@ -1,0 +1,19 @@
+{
+  "name": "mypersonallanding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "node": "^11.12.0",
+    "node-sass": "^4.13.0",
+    "sass": "^1.17.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}

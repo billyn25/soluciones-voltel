@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <title>Soluciones Voltel - Home</title>
+    <meta name="description"
+          content="Expertos en instalación y certificación de redes">
+    <meta name="keywords" content="">
+    <meta name="author" content="David Corregidor Gonzalo"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- galeria -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/fluid-gallery.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/css/uikit.min.css"/>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit-icons.min.js"></script>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- BOOTSTRAP js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <!-- Billy css -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<header id="Home">
+    <nav class="mr-3 ml-3 navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between">
+        <a href="#" class="text-white"><img src="img/voltel.png" width="110" height="110" alt="voltel logo"
+                 style="filter: drop-shadow(1px 1px 1px #555); "/>
+        </a>
+        <div id="mySidenav" class="sidenav text-right">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+            <div class="form-inline mt-5 justify-content-end">
+                <a href="mailto:administracion@solucionesvoltel.com" className="uk-icon-button uk-margin-small-right"
+                   uk-icon="mail"></a>
+                <a href="mailto:billyndavid@gmail.com" className="uk-icon-button uk-margin-small-right"
+                   uk-icon="linkedin"></a>
+                <a href="mailto:billyndavid@gmail.com" className="uk-icon-button uk-margin-small-right"
+                   uk-icon="facebook"></a>
+            </div>
+        </div>
+            <div id="main">
+                <span class="text-white" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+    </nav>
+    <!-- Use any element to open the sidenav -->
+</header>
+<section class="section-slider">
+    <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1" uk-slider="autoplay:active; center: true">
+        <ul class="uk-slider-items uk-grid">
+            <li class="uk-width-1-1">
+                <div class="uk-panel">
+                    <div class="pickgradient">
+                        <img src="img/wifi.jpg" alt="wifi"/>
+                    </div>
+                    <div class="uk-overlay uk-overlay-default uk-position-center-left">
+                        <h1 class="text-white">Expertos en instalación de redes cableadas y wifi</h1>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-1-1">
+                <div class="uk-panel">
+                    <div class="pickgradient">
+                        <img src="img/redes.jpg" alt="redes utp"/>
+                    </div>
+                    <div class="uk-overlay uk-overlay-default uk-position-center-right">
+                        <h1 class="text-white">Certificación de cableado estructurado utp</h1>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-1-1">
+                <div class="uk-panel">
+                    <div class="pickgradient">
+                        <img src="img/domotica.jpg" alt="domotica"/>
+                    </div>
+                    <div class="uk-overlay uk-overlay-default uk-position-center-left">
+                        <h1 class="text-white">Tu hogar o negocio conectado con nuestra dómotica</h1>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover"
+           style="border-radius: 50%; background-color: rgba(255, 255, 255, 0.78); " href="#" uk-slidenav-previous
+           uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover"
+           style="border-radius: 50%; background-color: rgba(255, 255, 255, 0.78);" href="#" uk-slidenav-next
+           uk-slider-item="next"></a>
+        <div class="uk-overlay2 uk-overlay-default uk-light uk-position-bottom-center p-4 m-0">
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+    </div>
+</section>
+<a href="https://api.whatsapp.com/send?phone=34660621502" class="float d-noneW" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
+<a href="tel:+34660621502" class="float2 d-noneW">
+    <i class="fa fa-phone my-float"></i>
+</a>
+<script src="main.js"></script>
+</body>
+</html>

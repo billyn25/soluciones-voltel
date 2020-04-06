@@ -1,0 +1,168 @@
+$primary-color: #4b4b4b;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $primary-color;
+}
+
+header {
+  padding-top: 0.00px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  color: white;
+}
+
+.section-slider {
+  height: auto;
+  font-size: 1.9rem;
+  overflow: hidden;
+  margin-bottom: 50px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    display: block;
+  }
+
+  .pickgradient {
+    display: inline-block;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.78) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
+  }
+
+  .uk-overlay {
+    margin: 0 52px 0 52px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.42) !important;
+  }
+
+  .uk-overlay2 {
+    width:130px;
+    height: 60px;
+    margin: 0 0 30px 0px !important;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.42) !important;
+  }
+}
+
+/* The side navigation menu */
+.sidenav {
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 120px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 32px 8px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  height: auto;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  font-size: 36px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  position: relative;
+  top: -25px;
+  right: 0;
+  transition: margin-right .5s;
+}
+
+.float, .float2 {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float2 {
+  right: 90px;
+  background-color: #808080;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.d-noneW {
+  display: none;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* css para movil */
+@media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section-slider {
+    img {
+      object-position: 80% 50%; /* default value: image is centered*/
+    }
+
+    .uk-overlay {
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .uk-overlay2 {
+      margin: 0 0 30px 40px !important;
+      left: 50px;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .d-noneW {
+    display: initial;
+  }
+
+
+}
