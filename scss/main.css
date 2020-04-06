@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5 {
 .section-slider .uk-overlay {
   margin: 0 52px 0 52px;
   padding: 50px;
-  background-color: rgba(0, 0, 0, 0.42) !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .section-slider .uk-overlay2 {
   width: 130px;
