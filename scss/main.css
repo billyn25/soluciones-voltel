@@ -135,7 +135,7 @@ a:hover {
 #main {
   position: relative;
   top: -20px;
-  right: -10px;
+  right: 0px;
   transition: margin-right 0.5s;
 }
 #main span {
