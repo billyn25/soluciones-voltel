@@ -202,6 +202,8 @@ a:hover {
     padding: 12px 30px 12px 25px; }
   .section-one {
     padding: 0 25px 0 25px; }
+  .section-one p {
+    font-size: 1rem; }
   .d-noneW {
     display: initial; } }
 
