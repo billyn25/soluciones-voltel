@@ -19,13 +19,13 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll > window.innerHeight - 150) {
-            $("header nav").addClass('bg-primary');
+            $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width='80px'
             imgLogo.style.height='auto'
             main.style.top='0'
         } else {
-            $("header nav").removeClass('bg-primary');
+            $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
             imgLogo.style.width='110'
             imgLogo.style.height='auto'

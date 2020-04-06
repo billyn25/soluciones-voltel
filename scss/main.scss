@@ -29,6 +29,9 @@ a:hover {
   color: white;
 }
 
+.navColor {
+  background-color: rgba(33, 33, 33, 0.9) !important;}
+
 .section-slider {
   height: auto;
   font-size: 1.9rem;
@@ -107,6 +110,11 @@ a:hover {
   top: -25px;
   right: 0;
   transition: margin-right .5s;
+
+  span {
+    font-size:30px;
+    cursor:pointer;
+  }
 
   span:hover{
     color: #b21123 !important;
@@ -192,6 +200,12 @@ a:hover {
     }
   }
 
+  #main {
+    span {
+      font-size: 39px;
+    }
+  }
+
   .section-one {
     padding: 0 20px 0 20px;
   }
@@ -199,6 +213,4 @@ a:hover {
   .d-noneW {
     display: initial;
   }
-
-
 }
