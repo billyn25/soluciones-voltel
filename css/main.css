@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 * {
   box-sizing: border-box; }
 
@@ -5,14 +6,25 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  color: #4b4b4b; }
+  color: #4b4b4b;
+  font-family: "Oxygen", sans-serif !important; }
 
 header {
   padding-top: 0px; }
 
 h1, h2, h3, h4, h5 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  line-height: 2rem; }
+
+h1 {
+  font-size: 1.5rem !important; }
+
+h2 {
+  font-size: 1.3rem !important; }
+
+h3 {
+  font-size: 1.2rem !important; }
 
 a:hover {
   text-decoration: none; }
@@ -55,6 +67,12 @@ a:hover {
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.42) !important; }
 
+.section-one {
+  padding: 0 60px 0 60px; }
+
+.section-one p {
+  font-size: 0.9rem; }
+
 /* The side navigation menu */
 .sidenav {
   width: 270px;
@@ -79,7 +97,7 @@ a:hover {
 .sidenav a {
   padding: 12px 32px 12px 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   display: block;
   transition: 0.3s;
@@ -104,7 +122,7 @@ a:hover {
   transition: margin-right 0.5s; }
 
 #main span {
-  font-size: 30px;
+  font-size: 27px;
   cursor: pointer; }
 
 #main span:hover {
@@ -126,9 +144,6 @@ a:hover {
 
 .uk-card-title {
   margin-bottom: 7px; }
-
-.section-one {
-  padding: 0 60px 0 60px; }
 
 .float, .float2 {
   position: fixed;
@@ -173,7 +188,7 @@ a:hover {
     margin: 0 0 30px 40px !important;
     left: 50px; }
   .section-slider h1 {
-    font-size: 1.5rem; }
+    font-size: 1.4rem; }
   #main span {
     font-size: 39px; }
   .section-one {
