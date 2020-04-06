@@ -8,7 +8,7 @@ body {
   color: #4b4b4b; }
 
 header {
-  padding-top: 0.00px; }
+  padding-top: 0px; }
 
 h1, h2, h3, h4, h5 {
   margin: 0;
@@ -22,28 +22,32 @@ h1, h2, h3, h4, h5 {
   font-size: 1.9rem;
   overflow: hidden;
   margin-bottom: 50px; }
-  .section-slider img {
-    width: 100%;
-    object-fit: cover;
-    position: relative;
-    z-index: -1;
-    display: block; }
-  .section-slider .pickgradient {
-    display: inline-block;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.78) 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
-    /* IE6-9 */ }
-  .section-slider .uk-overlay {
-    margin: 0 52px 0 52px;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.42) !important; }
-  .section-slider .uk-overlay2 {
-    width: 130px;
-    height: 60px;
-    margin: 0 0 30px 0px !important;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.42) !important; }
+
+.section-slider img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  display: block; }
+
+.section-slider .pickgradient {
+  display: inline-block;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.78) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6000000", endColorstr="#00000000", GradientType=0);
+  /* IE6-9 */ }
+
+.section-slider .uk-overlay {
+  margin: 0 52px 0 52px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.42) !important; }
+
+.section-slider .uk-overlay2 {
+  width: 130px;
+  height: 60px;
+  margin: 0 0 30px 0px !important;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.42) !important; }
 
 /* The side navigation menu */
 .sidenav {
@@ -91,7 +95,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
   top: -25px;
   right: 0;
-  transition: margin-right .5s; }
+  transition: margin-right 0.5s; }
 
 .float, .float2 {
   position: fixed;
@@ -139,3 +143,5 @@ h1, h2, h3, h4, h5 {
     font-size: 1.5rem; }
   .d-noneW {
     display: initial; } }
+
+/*# sourceMappingURL=main.css.map */

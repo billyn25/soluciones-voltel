@@ -4,14 +4,12 @@ function openNav() {
     document.getElementById("main").style.display= "none";
     document.getElementById("mySidenav").style.width = "270px";
     document.getElementById("main").style.marginRight = "270px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
 function closeNav() {
     document.getElementById("main").style.display= "initial";
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight= "0";
-    document.body.style.backgroundColor = "white";
 }
 
 //evento para el header nav, cuando haces scroll
