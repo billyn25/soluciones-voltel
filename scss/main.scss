@@ -114,8 +114,8 @@ a:hover {
 .sidenav .closebtn {
   position: absolute;
   top: 30px;
-  right: 0px;
-  font-size: 36px;
+  right: -5px;
+  font-size: 40px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -139,7 +139,7 @@ a:hover {
   height: auto;
 
   .uk-card-body{
-    padding: 20px 30px 20px 30px;
+    padding: 40px;
     h3 {
       padding-bottom: 7px;
     }
@@ -212,12 +212,12 @@ a:hover {
 
   #main {
     span {
-      font-size: 39px;
+      font-size: 34px;
     }
   }
 
   .section-one {
-    padding: 0 20px 0 20px;
+    padding: 0 25px 0 25px;
   }
 
   .d-noneW {

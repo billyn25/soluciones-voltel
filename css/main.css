@@ -111,8 +111,8 @@ a:hover {
 .sidenav .closebtn {
   position: absolute;
   top: 30px;
-  right: 0px;
-  font-size: 36px; }
+  right: -5px;
+  font-size: 40px; }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -132,7 +132,7 @@ a:hover {
   height: auto; }
 
 .uk-card .uk-card-body {
-  padding: 20px 30px 20px 30px; }
+  padding: 40px; }
 
 .uk-card .uk-card-body h3 {
   padding-bottom: 7px; }
@@ -190,9 +190,9 @@ a:hover {
   .section-slider h1 {
     font-size: 1.4rem; }
   #main span {
-    font-size: 39px; }
+    font-size: 34px; }
   .section-one {
-    padding: 0 20px 0 20px; }
+    padding: 0 25px 0 25px; }
   .d-noneW {
     display: initial; } }
 
