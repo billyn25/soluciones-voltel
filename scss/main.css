@@ -145,7 +145,7 @@ a:hover {
   transition: margin-right 0.5s;
 }
 #main span {
-  font-size: 27px;
+  font-size: 30px;
   cursor: pointer;
 }
 #main span:hover {
@@ -224,7 +224,7 @@ a:hover {
   }
 
   #main span {
-    font-size: 34px;
+    font-size: 35px;
   }
 
   .sidenav a {

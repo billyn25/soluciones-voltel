@@ -128,7 +128,7 @@ a:hover {
   transition: margin-right 0.5s; }
 
 #main span {
-  font-size: 27px;
+  font-size: 30px;
   cursor: pointer; }
 
 #main span:hover {
@@ -193,7 +193,7 @@ a:hover {
   .section-slider h1 {
     font-size: 1.4rem; }
   #main span {
-    font-size: 34px; }
+    font-size: 3px; }
   .sidenav a {
     padding: 15px 30px 15px 0; }
   .section-one {
