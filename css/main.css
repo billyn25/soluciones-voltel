@@ -46,7 +46,7 @@ a:hover {
   font-size: 1.9rem;
   overflow: hidden; }
 
-.section-slider img {
+.section-slider .uk-slideshow-items img {
   width: 100%;
   object-fit: cover;
   position: relative;
