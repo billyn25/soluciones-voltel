@@ -269,7 +269,9 @@ hr {
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header .navbar {
     padding-left: 25px;
-    padding-right: 25px; }
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
   .section-slider img {
     object-position: 80% 50%;
     /* default value: image is centered*/ }
