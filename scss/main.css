@@ -213,8 +213,8 @@ a:hover {
 }
 
 /*********************************
-12. Footer
-  *********************************/
+    Footer
+*********************************/
 .section-footer {
   padding-bottom: 40px;
 }
@@ -231,6 +231,7 @@ a:hover {
 
 .footer_bar {
   height: auto;
+  padding: 0 10px 0 10px !important;
 }
 
 .copyright {

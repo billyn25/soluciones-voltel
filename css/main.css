@@ -187,8 +187,8 @@ a:hover {
   display: none; }
 
 /*********************************
-12. Footer
-  *********************************/
+    Footer
+*********************************/
 .section-footer {
   padding-bottom: 40px; }
 
@@ -201,7 +201,8 @@ a:hover {
   position: relative; }
 
 .footer_bar {
-  height: auto; }
+  height: auto;
+  padding: 0 10px 0 10px !important; }
 
 .copyright {
   font-size: 11px;
