@@ -2,9 +2,6 @@
 * {
   box-sizing: border-box; }
 
-html {
-  scroll-behavior: smooth; }
-
 body {
   color: #4b4b4b;
   font-family: "Oxygen", sans-serif !important; }
