@@ -84,7 +84,7 @@ a:hover {
 
 /* The side navigation menu */
 .sidenav {
-  width: 270px;
+  width: 300px;
   /* 0 width - change this with JavaScript */
   position: fixed;
   /* Stay in place */
@@ -92,7 +92,7 @@ a:hover {
   /* Stay on top */
   top: 0;
   /* Stay at the top */
-  right: -270px;
+  right: -300px;
   background-color: #bd1225;
   /* Black*/
   overflow-x: hidden;
