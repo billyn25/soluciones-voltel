@@ -297,7 +297,9 @@ hr {
     padding: 33px !important; }
   .d-noneW {
     display: initial; }
-  .footer_col {
+  .section-footer {
+    padding-bottom: 110px; }
+  .section-footer .footer_col {
     padding-top: 25px; } }
 
 /*# sourceMappingURL=main.css.map */

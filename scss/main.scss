@@ -368,7 +368,10 @@ hr { width: 80%;}
     display: initial;
   }
 
-  .footer_col {
-    padding-top: 25px;
+  .section-footer {
+    padding-bottom: 110px;
+    .footer_col {
+      padding-top: 25px;
+    }
   }
 }

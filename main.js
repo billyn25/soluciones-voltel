@@ -34,10 +34,12 @@ $(document).ready(function() {
 
 //ajustar imagen slider segun pantalla
 function setDimensions(){
+
     let windowsHeight = window.innerHeight;
     let windowsWidth = window.innerWidth;
     let slider = $('.uk-slideshow-items');
     let sliderImg = $('.uk-slideshow-items img');
+
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
     sliderImg.css('height', windowsHeight + 'px');
