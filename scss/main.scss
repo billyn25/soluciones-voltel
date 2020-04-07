@@ -1,4 +1,5 @@
 $primary-color: #4b4b4b;
+$footer-color: #6d6d6d;
 $padding-section:60px;
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 * {
@@ -189,7 +190,7 @@ hr { width: 80%;}
     height: 300px;
   }
   img:hover{
-      opacity: 0.70;
+      opacity: 0.8;
     }
 }
 
@@ -251,7 +252,7 @@ hr { width: 80%;}
 .copyright {
   font-size: 11px;
   font-weight: 700;
-  color: $primary-color
+  color: $footer-color
 }
 
 .footer_row {
@@ -295,7 +296,7 @@ hr { width: 80%;}
 
 .footer_list ul li {
   font-weight: bold;
-  color: $primary-color
+  color: $footer-color
 }
 
 .footer_logo {
