@@ -223,7 +223,7 @@ a:hover {
 
   #main {
     span {
-      font-size: 35px;
+      font-size: 37px;
     }
   }
 
@@ -236,6 +236,10 @@ a:hover {
     p{
       font-size: 1.0rem;
     }
+  }
+
+  .uk-card-body {
+    padding: 35px;
   }
 
   .d-noneW {

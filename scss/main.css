@@ -224,7 +224,7 @@ a:hover {
   }
 
   #main span {
-    font-size: 35px;
+    font-size: 37px;
   }
 
   .sidenav a {
@@ -236,6 +236,10 @@ a:hover {
   }
   .section-one p {
     font-size: 1rem;
+  }
+
+  .uk-card-body {
+    padding: 35px;
   }
 
   .d-noneW {
