@@ -60,7 +60,6 @@ a:hover {
   height: auto;
   font-size: 1.9rem;
   overflow: hidden;
-  margin-bottom: 50px;
 }
 .section-slider img {
   width: 100%;
@@ -90,6 +89,7 @@ a:hover {
 }
 
 .section-one {
+  margin-top: 90px;
   padding: 0 60px 0 60px;
 }
 .section-one p {
@@ -225,6 +225,7 @@ hr {
 *********************************/
 .section-footer {
   padding-bottom: 40px;
+  margin-top: 90px;
 }
 
 .footer_content {

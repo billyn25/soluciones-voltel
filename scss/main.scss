@@ -62,8 +62,6 @@ a:hover {
   height: auto;
   font-size: 1.9rem;
   overflow: hidden;
-  margin-bottom: 50px;
-
   img {
     width: 100%;
     object-fit: cover;
@@ -94,6 +92,7 @@ a:hover {
 }
 
 .section-one {
+  margin-top: 90px;
   padding: 0 60px 0 60px;
 
   p {
@@ -226,6 +225,7 @@ hr { width: 80%;}
 *********************************/
 .section-footer {
   padding-bottom: 40px;
+  margin-top: 90px;
 }
 
 .footer_content {
