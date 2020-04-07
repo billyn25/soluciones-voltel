@@ -41,6 +41,7 @@ function setDimensions(){
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
     sliderImg.css('height', windowsHeight + 'px');
+    sliderImg.css('height', windowsWidth + 'px');
     $('.sidenav').css('height', windowsHeight + 'px');
 }
 
