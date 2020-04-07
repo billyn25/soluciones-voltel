@@ -190,7 +190,7 @@ a:hover {
 12. Footer
   *********************************/
 .section-footer {
-  padding-bottom: 20px; }
+  padding-bottom: 40px; }
 
 .footer_content {
   padding-top: 40px;
@@ -201,7 +201,7 @@ a:hover {
   position: relative; }
 
 .footer_bar {
-  height: 56px; }
+  height: auto; }
 
 .copyright {
   font-size: 11px;
@@ -271,6 +271,8 @@ a:hover {
   .uk-card-body {
     padding: 33px !important; }
   .d-noneW {
-    display: initial; } }
+    display: initial; }
+  .footer_col {
+    padding-top: 25px; } }
 
 /*# sourceMappingURL=main.css.map */

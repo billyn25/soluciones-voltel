@@ -216,7 +216,7 @@ a:hover {
 12. Footer
   *********************************/
 .section-footer {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .footer_content {
@@ -230,7 +230,7 @@ a:hover {
 }
 
 .footer_bar {
-  height: 56px;
+  height: auto;
 }
 
 .copyright {
@@ -327,6 +327,10 @@ a:hover {
 
   .d-noneW {
     display: initial;
+  }
+
+  .footer_col {
+    padding-top: 25px;
   }
 }
 
