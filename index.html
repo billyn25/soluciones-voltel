@@ -89,10 +89,9 @@
     </nav>
 </header>
 <section class="section-slider">
-    <div class="uk-position-relative uk-visible-toggle uk-dark shadow-lg bg-dark" tabindex="-1"
-         uk-slider="autoplay:active; center: true">
-        <ul class="uk-slider-items uk-grid">
-            <li class="uk-width-1-1">
+    <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: pull; autoplay:active;">
+        <ul class="uk-slideshow-items">
+            <li>
                 <div class="uk-panel">
                     <div class="pickgradient">
                         <img src="img/wifi_section.jpg" alt="wifi"/>
@@ -102,7 +101,7 @@
                     </div>
                 </div>
             </li>
-            <li class="uk-width-1-1">
+            <li>
                 <div class="uk-panel">
                     <div class="pickgradient">
                         <img src="img/redes.jpg" alt="redes utp"/>
@@ -112,7 +111,7 @@
                     </div>
                 </div>
             </li>
-            <li class="uk-width-1-1">
+            <li>
                 <div class="uk-panel">
                     <div class="pickgradient">
                         <img src="img/domotica.jpg" alt="domotica"/>
@@ -123,14 +122,12 @@
                 </div>
             </li>
         </ul>
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover"
-           style="border-radius: 50%; background-color: rgba(255, 255, 255, 0.78); " href="#" uk-slidenav-previous
-           uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover"
-           style="border-radius: 50%; background-color: rgba(255, 255, 255, 0.78);" href="#" uk-slidenav-next
-           uk-slider-item="next"></a>
+        <div class="uk-dark">
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="border-radius: 50%; background-color: rgba(255, 255, 255, 0.78);" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover"  style="border-radius: 50%; background-color: rgba(255, 255, 255, 0.78);" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
         <div class="uk-overlay2 uk-overlay-default uk-light uk-position-bottom-center p-4 m-0">
-            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+            <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
         </div>
     </div>
 </section>
