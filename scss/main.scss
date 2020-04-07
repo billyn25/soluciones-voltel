@@ -155,6 +155,10 @@ a:hover {
   }
 }
 
+.form-inline {
+  padding-right: 45px;
+}
+
 .dropdown-item {
   padding: 12px !important;
   font-size: 0.9rem !important;
@@ -321,6 +325,10 @@ hr { width: 80%;}
     span {
       font-size: 37px;
     }
+  }
+
+  .form-inline {
+    padding-right: 30px;
   }
 
   .sidenav a {
