@@ -165,6 +165,10 @@ a:hover {
   background-color: #6c6b6b;
 }
 
+hr {
+  width: 80%;
+}
+
 .uk-card {
   height: auto;
 }
