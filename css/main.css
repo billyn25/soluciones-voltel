@@ -9,6 +9,14 @@ body {
   color: #4b4b4b;
   font-family: "Oxygen", sans-serif !important; }
 
+li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  line-height: 2rem; }
+
 header {
   padding-top: 0px; }
 
@@ -17,11 +25,6 @@ header .navbar {
   height: auto;
   padding-left: 40px;
   padding-right: 40px; }
-
-h1, h2, h3, h4, h5 {
-  margin: 0;
-  padding: 0;
-  line-height: 2rem; }
 
 h1 {
   font-size: 1.5rem !important; }
@@ -133,6 +136,14 @@ a:hover {
 
 #main span:hover {
   color: #bd1225 !important; }
+
+.dropdown-item {
+  padding: 12px !important;
+  font-size: 0.9rem !important;
+  font-weight: bold !important; }
+
+.dropdown-item:hover {
+  background-color: #6c6b6b; }
 
 .uk-card {
   height: auto; }

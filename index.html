@@ -48,11 +48,23 @@
                                             style="filter: drop-shadow(1px 1px 1px #555); "/>
         </a>
         <div id="mySidenav" class="sidenav text-right">
-            <a href="javascript:void(0)" id="buttonX" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Sobre nosotros</a>
-            <a href="#">Servicios</a>
-            <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
+            <ul>
+                <li><a href="javascript:void(0)" id="buttonX" class="closebtn" onclick="closeNav()">&times;</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pr-0" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                    <div class="dropdown-menu bg-dark p-2" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item text-white" href="#">INSTALACIÓN DE REDES</a>
+                        <a class="dropdown-item text-white" href="#">CERTIFICACIONES UTP</a>
+                        <a class="dropdown-item text-white" href="#">DOMÓTICA</a>
+                        <a class="dropdown-item text-white" href="#">ILUMINACIÓN</a>
+                        <a class="dropdown-item text-white" href="#">CCTV E INTRUSIÓN</a>
+                    </div>
+                </li>
+                <li></li><a href="#">Clientes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
             <div class="form-inline justify-content-end">
                 <hr class="w-100 ml-3 mr-3 pt-2 border-white"/>
                 <a href="mailto:administracion@solucionesvoltel.com" className="uk-icon-button uk-margin-small-right"
@@ -69,7 +81,7 @@
     </nav>
 </header>
 <section class="section-slider">
-    <div class="uk-position-relative uk-visible-toggle uk-dark" tabindex="-1" uk-slider="autoplay:active; center: true">
+    <div class="uk-position-relative uk-visible-toggle uk-dark shadow-lg bg-dark" tabindex="-1" uk-slider="autoplay:active; center: true">
         <ul class="uk-slider-items uk-grid">
             <li class="uk-width-1-1">
                 <div class="uk-panel">
@@ -122,7 +134,7 @@
             <a href="#">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img src="img/wifi.jpg" alt="">
+                        <img src="img/wifi.jpg" alt="wifi">
                     </div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">Instalación de redes cableadas y wifi</h3>
@@ -142,7 +154,7 @@
             <a href="#">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img src="img/red_seccion.png" alt="">
+                        <img src="img/red_seccion.png" alt="redes">
                     </div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">CERTIFICACIÓN DE CABLEADO ESTRUCTURADO UTP</h3>
@@ -157,7 +169,7 @@
             <a href="#">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img src="img/domotica_section.jpg" alt="">
+                        <img src="img/domotica_section.jpg" alt="domotica">
                     </div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">Domótica</h3>
@@ -174,7 +186,7 @@
             <a href="#">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img src="img/electricidad.jpg" alt="">
+                        <img src="img/electricidad.jpg" alt="electricidad">
                     </div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">Electricidad</h3>
@@ -188,7 +200,7 @@
             <a href="#">
                 <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
-                        <img src="img/cctv.jpg" alt="">
+                        <img src="img/cctv.jpg" alt="cctv e intrusion">
                     </div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title">CCTV E INTRUSIÓN</h3>
