@@ -246,7 +246,7 @@ hr {
 .copyright {
   font-size: 11px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.38);
+  color: #4b4b4b;
 }
 
 .footer_row {
@@ -257,7 +257,7 @@ hr {
   width: 95px;
   height: 95px;
   border-radius: 50%;
-  background: rgba(73, 73, 73, 0.51);
+  background: rgba(61, 61, 61, 0.51);
 }
 
 .footer_icon > div {
@@ -290,7 +290,7 @@ hr {
 
 .footer_list ul li {
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.38);
+  color: #4b4b4b;
 }
 
 .footer_logo {
