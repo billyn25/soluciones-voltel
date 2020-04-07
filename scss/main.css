@@ -156,6 +156,9 @@ a:hover {
 .form-inline {
   padding-right: 45px;
 }
+.form-inline a {
+  margin-left: 20px !important;
+}
 
 .dropdown-item {
   padding: 20px !important;
