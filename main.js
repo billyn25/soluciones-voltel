@@ -21,7 +21,7 @@ $(document).ready(function() {
         if (scroll > window.innerHeight - 150) {
             $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
-            imgLogo.style.width='65px'
+            imgLogo.style.width='75px'
             imgLogo.style.height='auto'
         } else {
             $("header nav").removeClass('navColor');
