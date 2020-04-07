@@ -293,6 +293,10 @@ hr { width: 80%;}
   color: rgba(255, 255, 255, 0.38);
 }
 
+.footer_logo {
+  margin-top: -96px;
+}
+
 /* css para movil */
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
