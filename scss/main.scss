@@ -1,4 +1,5 @@
 $primary-color: #4b4b4b;
+$secondary-color: rgb(46, 46, 46);
 $footer-color: #6d6d6d;
 $padding-section:60px;
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
@@ -137,6 +138,17 @@ a:hover {
   right: -5px;
   font-size: 40px;
 }
+.dropdown-menu {
+  background-color: $secondary-color;
+  .dropdown-item {
+    padding: 20px !important;
+    font-size: 0.9rem !important;
+    font-weight: bold !important;
+    &:hover {
+      background-color: $footer-color;
+    }
+  }
+}
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -159,16 +171,6 @@ a:hover {
   padding-right: 45px;
   a{
     margin-left: 20px !important;
-  }
-}
-
-.dropdown-item {
-  padding: 20px !important;
-  font-size: 0.9rem !important;
-  font-weight: bold !important;
-
-  &:hover {
-    background-color: #6c6b6b;
   }
 }
 
@@ -266,7 +268,7 @@ hr { width: 80%;}
   width: 95px;
   height: 95px;
   border-radius: 50%;
-  background: rgba(61, 61, 61, 0.51);
+  background: $secondary-color;
 }
 
 .footer_icon > div {
