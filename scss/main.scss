@@ -8,6 +8,7 @@ $padding-section:60px;
 }
 
 html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -73,7 +74,7 @@ a:hover {
 
   .pickgradient {
     display: inline-block;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%); /* W3C */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
   }
 
@@ -175,6 +176,10 @@ a:hover {
 
 hr { width: 80%;}
 
+.title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .uk-card {
   height: auto;
   opacity: 1;
@@ -184,6 +189,7 @@ hr { width: 80%;}
 
   .uk-card-body {
     padding: 40px;
+
     h3 {
       padding-bottom: 7px;
     }
@@ -235,7 +241,7 @@ hr { width: 80%;}
 *********************************/
 .section-footer {
   padding-bottom: 40px;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .footer_content {
