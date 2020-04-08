@@ -79,6 +79,10 @@ a:hover {
 .section-one p, .section-two p {
   font-size: 0.9rem; }
 
+.section-two .uk-card img {
+  width: 120px;
+  height: 120px; }
+
 /* The side navigation menu */
 .sidenav {
   width: 300px;
@@ -176,7 +180,7 @@ hr {
   width: 100%;
   height: 300px; }
 
-.uk-card img:hover {
+.section-one .uk-card img:hover {
   opacity: 0.8; }
 
 .uk-card-title {
@@ -293,9 +297,9 @@ hr {
     padding-right: 30px; }
   .sidenav a {
     padding: 15px 30px 15px 0; }
-  .section-one {
+  .section-one, .section-two {
     padding: 0 25px 0 25px; }
-  .section-one p {
+  .section-one p, .section-two p {
     font-size: 1rem; }
   .uk-card-body {
     padding: 33px !important; }
