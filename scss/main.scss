@@ -1,7 +1,7 @@
 $primary-color: #4b4b4b;
 $secondary-color: rgb(46, 46, 46);
 $footer-color: #6d6d6d;
-$padding-section:60px;
+$padding-section:100px;
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 * {
   box-sizing: border-box;
@@ -93,7 +93,7 @@ a:hover {
   }
 }
 
-.section-one {
+.section-one, .section-two {
   margin-top: 90px;
   padding: 0 $padding-section 0 $padding-section;
 
