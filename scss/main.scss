@@ -64,6 +64,8 @@ a:hover {
   height: auto;
   font-size: 1.9rem;
   overflow: hidden;
+  position: relative;
+
   .uk-slideshow-items img {
     width: 100%;
     object-fit: cover;
@@ -87,7 +89,7 @@ a:hover {
   .uk-overlay2 {
     width: 130px;
     height: 60px;
-    bottom: 30px;
+    bottom: 30px !important;
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.42) !important;
   }

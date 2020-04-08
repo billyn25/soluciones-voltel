@@ -57,6 +57,7 @@ a:hover {
   height: auto;
   font-size: 1.9rem;
   overflow: hidden;
+  position: relative;
 }
 .section-slider .uk-slideshow-items img {
   width: 100%;
@@ -80,7 +81,7 @@ a:hover {
 .section-slider .uk-overlay2 {
   width: 130px;
   height: 60px;
-  bottom: 30px;
+  bottom: 30px !important;
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.42) !important;
 }
