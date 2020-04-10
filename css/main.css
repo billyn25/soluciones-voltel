@@ -160,11 +160,7 @@ hr {
   padding-bottom: 30px; }
 
 .uk-card {
-  height: auto;
-  opacity: 1;
-  display: block;
-  transition: 0.5s ease;
-  backface-visibility: hidden; }
+  height: auto; }
 
 .uk-card .uk-card-body {
   padding: 40px; }
