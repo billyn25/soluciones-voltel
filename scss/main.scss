@@ -214,9 +214,10 @@ hr { width: 80%;}
 }
 .section-three{
   ul li img{
-    width: auto;
-    height: 55px;
+    width: 155px;
+    height: 45px;
     filter: drop-shadow(1px 1px 1px #999);
+    object-fit: contain;
   }
 }
 

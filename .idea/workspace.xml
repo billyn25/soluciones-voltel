@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +67,7 @@
       <workItem from="1586157040977" duration="11263000" />
       <workItem from="1586171955838" duration="8749000" />
       <workItem from="1586184633937" duration="37651000" />
-      <workItem from="1586508167902" duration="2312000" />
+      <workItem from="1586508167902" duration="2679000" />
     </task>
     <servers />
   </component>
