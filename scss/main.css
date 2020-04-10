@@ -372,7 +372,7 @@ hr {
 
   .section-three ul li img {
     width: 130px;
-    height: 45px;
+    height: 35px;
     filter: drop-shadow(1px 1px 1px #999);
     object-fit: contain;
   }
