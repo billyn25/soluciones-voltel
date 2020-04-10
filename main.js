@@ -43,10 +43,13 @@ function setDimensions(){
 
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
+
     sliderImg.css('height', windowsHeight + 'px');
     sliderImg.css('width', windowsWidth + 'px');
+
     overlay2.css('top', windowsHeight-90 + 'px');
     overlay2.css('left', windowsWidth/2-65 + 'px');
+
     $('.sidenav').css('height', windowsHeight + 'px');
 }
 
