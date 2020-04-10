@@ -74,7 +74,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.42) !important; }
 
 .section-one, .section-two, .section-three {
-  margin-top: 90px;
+  margin-top: 100px;
   padding: 0 100px 0 100px; }
 
 .section-one p, .section-two p, .section-three p {
@@ -188,7 +188,7 @@ hr {
   bottom: -30px !important;
   margin: 0 !important; }
 
-.section-one .uk-card img:hover {
+.section-one .uk-card:hover img {
   opacity: 0.8; }
 
 .uk-card-title {

@@ -87,7 +87,7 @@ a:hover {
 }
 
 .section-one, .section-two, .section-three {
-  margin-top: 90px;
+  margin-top: 100px;
   padding: 0 100px 0 100px;
 }
 .section-one p, .section-two p, .section-three p {
@@ -214,7 +214,7 @@ hr {
   margin: 0 !important;
 }
 
-.section-one .uk-card img:hover {
+.section-one .uk-card:hover img {
   opacity: 0.8;
 }
 
