@@ -79,10 +79,10 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .section-slider .uk-overlay2 {
+  position: absolute;
+  z-index: 6 !important;
   width: 130px;
   height: 60px;
-  margin-bottom: 70px !important;
-  padding: 50px;
   background-color: rgba(0, 0, 0, 0.42) !important;
 }
 
@@ -345,8 +345,7 @@ hr {
     flex-wrap: wrap;
   }
   .section-slider .uk-overlay2 {
-    margin: 0 0 30px 40px !important;
-    left: 50px;
+    left: 30px !important;
   }
   .section-slider h1 {
     font-size: 1.4rem;

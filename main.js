@@ -39,11 +39,14 @@ function setDimensions(){
     let windowsWidth = window.innerWidth;
     let slider = $('.uk-slideshow-items');
     let sliderImg = $('.uk-slideshow-items img');
+    let overlay2 = $('.uk-overlay2');
 
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
     sliderImg.css('height', windowsHeight + 'px');
     sliderImg.css('width', windowsWidth + 'px');
+    overlay2.css('top', windowsHeight-90 + 'px');
+    overlay2.css('left', windowsWidth/2 + 'px');
     $('.sidenav').css('height', windowsHeight + 'px');
 }
 
