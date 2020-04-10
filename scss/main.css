@@ -212,6 +212,11 @@ hr {
   filter: drop-shadow(1px 1px 1px #999);
   object-fit: contain;
 }
+.section-three .uk-slider-nav {
+  position: relative;
+  bottom: -30px !important;
+  margin: 0 !important;
+}
 
 .section-one .uk-card img:hover {
   opacity: 0.8;
