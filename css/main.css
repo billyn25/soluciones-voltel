@@ -73,11 +73,11 @@ a:hover {
   padding: 50px;
   background-color: rgba(0, 0, 0, 0.42) !important; }
 
-.section-one, .section-two {
+.section-one, .section-two, .section-three {
   margin-top: 90px;
   padding: 0 100px 0 100px; }
 
-.section-one p, .section-two p {
+.section-one p, .section-two p, .section-three p {
   font-size: 0.9rem; }
 
 /* The side navigation menu */
@@ -180,6 +180,11 @@ hr {
 .section-two .uk-card img {
   width: 105px;
   height: 105px; }
+
+.section-three ul li img {
+  width: auto;
+  height: 55px;
+  filter: drop-shadow(2px 2px 2px #777); }
 
 .section-one .uk-card img:hover {
   opacity: 0.8; }
