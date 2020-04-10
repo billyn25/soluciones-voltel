@@ -216,7 +216,7 @@ hr { width: 80%;}
   ul li img{
     width: auto;
     height: 55px;
-    filter: drop-shadow(2px 2px 2px #777);
+    filter: drop-shadow(1px 1px 1px #999);
   }
 }
 
@@ -377,7 +377,7 @@ hr { width: 80%;}
     padding: 15px 30px 15px 0;
   }
 
-  .section-one,.section-two {
+  .section-one,.section-two,.section-three {
     padding: 0 25px 0 25px;
 
     p {

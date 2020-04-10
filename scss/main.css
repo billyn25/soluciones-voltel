@@ -209,7 +209,7 @@ hr {
 .section-three ul li img {
   width: auto;
   height: 55px;
-  filter: drop-shadow(2px 2px 2px #777);
+  filter: drop-shadow(1px 1px 1px #999);
 }
 
 .section-one .uk-card img:hover {
@@ -362,10 +362,10 @@ hr {
     padding: 15px 30px 15px 0;
   }
 
-  .section-one, .section-two {
+  .section-one, .section-two, .section-three {
     padding: 0 25px 0 25px;
   }
-  .section-one p, .section-two p {
+  .section-one p, .section-two p, .section-three p {
     font-size: 1rem;
   }
 
