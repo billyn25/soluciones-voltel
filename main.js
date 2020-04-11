@@ -1,12 +1,11 @@
 //nav lateral
 function openNav() {
-
-    document.getElementById("main").style.display= "none";
     document.getElementById("mySidenav").style.right = "0px";
+    document.getElementById("main").style.marginRight = "300px";
 }
 
 function closeNav() {
-    document.getElementById("main").style.display= "initial";
+
     document.getElementById("mySidenav").style.right = "-300px";
     document.getElementById("main").style.marginRight= "0";
 }

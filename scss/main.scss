@@ -136,9 +136,9 @@ a:hover {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 0px;
+  top: -7px;
   right: -5px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .nav-link {
@@ -159,10 +159,10 @@ padding-right: 13px!important;
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  position: relative;
   top: 0px;
   right: 0px;
   transition: margin-right .5s;
+  overflow:hidden;
 
   span {
     font-size: 30px;
@@ -385,6 +385,10 @@ hr { width: 80%;}
 
   .nav-link {
     padding-right: 0px!important;
+  }
+
+  .sidenav .closebtn {
+    top: -10px;
   }
 
   .section-one,.section-two,.section-three {
