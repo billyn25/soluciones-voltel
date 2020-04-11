@@ -140,6 +140,11 @@ a:hover {
   right: -5px;
   font-size: 40px;
 }
+
+.nav-link {
+padding-right: 13px!important;
+}
+
 .dropdown-menu {
   background-color: $secondary-color;
   .dropdown-item {
@@ -376,6 +381,10 @@ hr { width: 80%;}
 
   .sidenav a {
     padding: 15px 30px 15px 0;
+  }
+
+  .nav-link {
+    padding-right: 0px!important;
   }
 
   .section-one,.section-two,.section-three {

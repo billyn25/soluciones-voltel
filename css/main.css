@@ -121,6 +121,9 @@ a:hover {
   right: -5px;
   font-size: 40px; }
 
+.nav-link {
+  padding-right: 13px !important; }
+
 .dropdown-menu {
   background-color: #2e2e2e; }
 
@@ -304,6 +307,8 @@ hr {
     padding-right: 30px; }
   .sidenav a {
     padding: 15px 30px 15px 0; }
+  .nav-link {
+    padding-right: 0px !important; }
   .section-one, .section-two, .section-three {
     padding: 0 25px 0 25px; }
   .section-one p, .section-two p, .section-three p {

@@ -139,6 +139,10 @@ a:hover {
   font-size: 40px;
 }
 
+.nav-link {
+  padding-right: 13px !important;
+}
+
 .dropdown-menu {
   background-color: #2e2e2e;
 }
@@ -361,6 +365,10 @@ hr {
 
   .sidenav a {
     padding: 15px 30px 15px 0;
+  }
+
+  .nav-link {
+    padding-right: 0px !important;
   }
 
   .section-one, .section-two, .section-three {
