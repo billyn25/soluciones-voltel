@@ -310,7 +310,8 @@ hr {
   .nav-link {
     padding-right: 0px !important; }
   .sidenav .closebtn {
-    top: -10px; }
+    top: -10px;
+    font-size: 40px; }
   .section-one, .section-two, .section-three {
     padding: 0 25px 0 25px; }
   .section-one p, .section-two p, .section-three p {
