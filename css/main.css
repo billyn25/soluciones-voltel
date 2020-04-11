@@ -39,7 +39,7 @@ a:hover {
   color: white; }
 
 .navColor {
-  background-color: rgba(33, 33, 33, 0.9) !important; }
+  background-color: rgba(46, 46, 46, 0.9) !important; }
 
 .section-slider {
   height: auto;
@@ -238,7 +238,7 @@ hr {
 
 .footer_bar {
   height: auto;
-  padding: 0 10px 0 10px !important; }
+  padding: 10px 10px 0 10px !important; }
 
 .copyright {
   font-size: 11px;
