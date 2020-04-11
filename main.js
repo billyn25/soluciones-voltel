@@ -5,7 +5,6 @@ function openNav() {
 }
 
 function closeNav() {
-
     document.getElementById("mySidenav").style.right = "-300px";
     document.getElementById("main").style.marginRight= "0";
 }
@@ -25,7 +24,7 @@ $(document).ready(function() {
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
-            imgLogo.style.width='110'
+            imgLogo.style.width='110px'
             imgLogo.style.height='auto'
         }
     });
