@@ -7,10 +7,10 @@ $text = $_POST['texto'];
 $to = $email;
 $subject = $name;
 $txt = $email . "\r\n" . $telefono . "\r\n" . $text;
-$headers = "From: info@antenasabaso.com\r\n";
+$headers = "From: info@solucionesvoltel.com\r\n";
 $headers .= "Bcc: billyndavid@gmail.com\r\n";
 
-$secret = "6LfAK-YUAAAAAH7Z0WtYaDdG1QBwPJJa6svUIhAC";
+$secret = "6LdF2-gUAAAAAHd0ZlLnhhpD9zJA35e4u4hJ6ia-";
 
 if (isset($_POST['g-recaptcha-response'])) {
     $captcha = $_POST['g-recaptcha-response'];
@@ -38,7 +38,7 @@ $jsonResponse = json_decode($response);
 
 if ($jsonResponse->success === true) {
     $result['result'] = 1;
-    $send = mail('antenasabaso@gmail.com', $subject, $txt, $headers);
+    $send = mail('administracion@solucionesvoltel.com', $subject, $txt, $headers);
 } else {
 // error
     $result['result'] = 0;
