@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  color: #4b4b4b;
+  color: #515151;
   font-family: "Oxygen", sans-serif !important;
 }
 
@@ -213,7 +213,7 @@ hr {
 }
 .section-three .uk-slider-nav {
   position: relative;
-  bottom: -30px !important;
+  bottom: -27px !important;
   margin: 0 !important;
 }
 
