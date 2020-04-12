@@ -20,7 +20,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         let size = '';
-        
+
         page === 'index.html' ? size = window.innerHeight - 155 : size =  img.innerHeight() - 155;
 
         if (scroll > size) {
