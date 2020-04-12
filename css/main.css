@@ -194,6 +194,7 @@ hr {
   opacity: 0.8; }
 
 .section-header img {
+  height: 600px;
   object-fit: cover;
   object-position: 70% 35%; }
 
@@ -332,6 +333,8 @@ hr {
     height: 35px;
     filter: drop-shadow(1px 1px 1px #999);
     object-fit: contain; }
+  .section-header img {
+    height: 450px; }
   .uk-card-body {
     padding: 33px !important; }
   .d-noneW {

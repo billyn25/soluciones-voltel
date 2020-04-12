@@ -13,13 +13,15 @@ function closeNav() {
 let imgLogo = document.getElementById("logo");
 var path = window.location.pathname;
 var page = path.split("/").pop();
+//img submenus
+let img = $('.section-header img');
 
 $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         let size = '';
-
-        page === 'index.html' ? size = window.innerHeight - 155 : size = 600 - 155;
+        
+        page === 'index.html' ? size = window.innerHeight - 155 : size =  img.innerHeight() - 155;
 
         if (scroll > size) {
             $("header nav").addClass('navColor');
@@ -56,9 +58,7 @@ function setDimensions(){
     $('.sidenav').css('height', windowsHeight + 'px');
 
     //sub sections img
-    let img = $('.section-header img');
     img.css('width', windowsWidth + 'px');
-    img.css('height', '600px');
 }
 
 //when resizing the site, we adjust the heights of the sections
