@@ -86,11 +86,11 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.42) !important;
 }
 
-.section-one, .section-two, .section-three {
+.section-one, .section-two, .section-three, .section-form {
   margin-top: 100px;
   padding: 0 100px 0 100px;
 }
-.section-one p, .section-two p, .section-three p {
+.section-one p, .section-two p, .section-three p, .section-form p {
   font-size: 0.9rem;
 }
 
@@ -106,7 +106,6 @@ a:hover {
   /* Stay at the top */
   right: -300px;
   background-color: #bd1225;
-  /* Black*/
   overflow-x: hidden;
   /* Disable horizontal scroll */
   padding-top: 120px;
@@ -220,6 +219,18 @@ hr {
 
 .section-one .uk-card:hover img {
   opacity: 0.8;
+}
+
+.section-header img {
+  object-fit: cover;
+  object-position: 70% 35%;
+}
+
+.section-form a:hover {
+  color: #bd1225 !important;
+}
+.section-form button:hover {
+  background-color: #bd1225 !important;
 }
 
 .uk-card-title {
@@ -342,7 +353,6 @@ hr {
 
   .section-slider img {
     object-position: 80% 50%;
-    /* default value: image is centered*/
   }
   .section-slider .uk-overlay {
     padding: 20px;
@@ -356,7 +366,7 @@ hr {
   }
 
   #main span {
-    font-size: 37px;
+    font-size: 38px;
   }
 
   .form-inline {
@@ -372,14 +382,14 @@ hr {
   }
 
   .sidenav .closebtn {
-    top: -10px;
-    font-size: 40px;
+    top: -5px;
+    font-size: 45px;
   }
 
-  .section-one, .section-two, .section-three {
+  .section-one, .section-two, .section-three, .section-form {
     padding: 0 25px 0 25px;
   }
-  .section-one p, .section-two p, .section-three p {
+  .section-one p, .section-two p, .section-three p, .section-form p {
     font-size: 1rem;
   }
 

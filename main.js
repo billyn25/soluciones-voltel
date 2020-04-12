@@ -11,21 +11,26 @@ function closeNav() {
 
 //evento para el header nav, cuando haces scroll
 let imgLogo = document.getElementById("logo");
-//let main = document.getElementById("main");
-//let buttonX = document.getElementById("buttonX");
-$(document).ready(function() {
-    $(window).scroll(function() {
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+$(document).ready(function () {
+    $(window).scroll(function () {
         var scroll = $(window).scrollTop();
-        if (scroll > window.innerHeight - 150) {
+        let size = '';
+
+        page === 'index.html' ? size = window.innerHeight - 155 : size = 600 - 155;
+
+        if (scroll > size) {
             $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
-            imgLogo.style.width='65px'
-            imgLogo.style.height='auto'
+            imgLogo.style.width = '65px';
+            imgLogo.style.height = 'auto'
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
-            imgLogo.style.width='110px'
-            imgLogo.style.height='auto'
+            imgLogo.style.width = '110px';
+            imgLogo.style.height = 'auto';
         }
     });
 });
@@ -49,6 +54,11 @@ function setDimensions(){
     overlay2.css('left', windowsWidth/2-65 + 'px');
 
     $('.sidenav').css('height', windowsHeight + 'px');
+
+    //sub sections img
+    let img = $('.section-header img');
+    img.css('width', windowsWidth + 'px');
+    img.css('height', '600px');
 }
 
 //when resizing the site, we adjust the heights of the sections

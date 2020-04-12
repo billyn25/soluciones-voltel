@@ -95,7 +95,7 @@ a:hover {
   }
 }
 
-.section-one, .section-two, .section-three {
+.section-one, .section-two, .section-three,.section-form {
   margin-top: 100px;
   padding: 0 $padding-section 0 $padding-section;
 
@@ -111,7 +111,7 @@ a:hover {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: -300px;
-  background-color: #bd1225; /* Black*/
+  background-color: #bd1225;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 120px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -229,6 +229,22 @@ hr { width: 80%;}
 
 .section-one .uk-card:hover img{
   opacity: 0.8;
+}
+
+.section-header{
+  img{
+    object-fit: cover;
+    object-position: 70% 35%;
+  }
+}
+
+.section-form {
+  a:hover{
+    color: #bd1225 !important;
+  }
+  button:hover{
+    background-color: #bd1225 !important;;
+  }
 }
 
 .uk-card-title {
@@ -352,7 +368,7 @@ hr { width: 80%;}
   }
   .section-slider {
     img {
-      object-position: 80% 50%; /* default value: image is centered*/
+      object-position: 80% 50%;
     }
 
     .uk-overlay {
@@ -371,7 +387,7 @@ hr { width: 80%;}
 
   #main {
     span {
-      font-size: 37px;
+      font-size: 38px;
     }
   }
 
@@ -388,11 +404,11 @@ hr { width: 80%;}
   }
 
   .sidenav .closebtn {
-    top: -10px;
-    font-size: 40px;
+    top: -5px;
+    font-size: 45px;
   }
 
-  .section-one,.section-two,.section-three {
+  .section-one,.section-two,.section-three,.section-form {
     padding: 0 25px 0 25px;
 
     p {
