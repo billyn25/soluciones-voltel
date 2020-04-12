@@ -200,8 +200,11 @@ hr {
 .section-form a:hover {
   color: #bd1225 !important; }
 
-.section-form button:hover {
-  background-color: #bd1225 !important; }
+.section-form .cv {
+  margin-top: 100px; }
+
+.section-form .cv div img {
+  object-fit: cover; }
 
 .uk-card-title {
   margin-bottom: 7px; }
