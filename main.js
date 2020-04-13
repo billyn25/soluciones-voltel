@@ -21,7 +21,7 @@ $(document).ready(function () {
         var scroll = $(window).scrollTop();
         let size = '';
 
-        page === 'index.html' ? size = window.innerHeight - 155 : size =  img.innerHeight() - 155;
+        page === './index.html' ? size = window.innerHeight - 155 : size =  img.innerHeight() - 155;
 
         if (scroll > size) {
             $("header nav").addClass('navColor');
