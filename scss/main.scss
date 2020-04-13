@@ -61,7 +61,7 @@ a:hover {
   background-color: rgba(46, 46, 46, 0.9) !important;
 }
 
-.section-slider,.section-header {
+.section-slider {
   height: auto;
   font-size: 1.9rem;
   overflow: hidden;
@@ -73,12 +73,6 @@ a:hover {
     position: relative;
     z-index: -1;
     display: block;
-  }
-
-  .pickgradient {
-    display: inline-block;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
   }
 
   .uk-overlay {
@@ -94,6 +88,12 @@ a:hover {
     height: 60px;
     background-color: rgba(0, 0, 0, 0.42) !important;
   }
+}
+
+.pickgradient {
+  display: block;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
 }
 
 .section-one, .section-two, .section-three,.section-form {
