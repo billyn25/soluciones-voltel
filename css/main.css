@@ -67,7 +67,8 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.42) !important; }
 
 .pickgradient {
-  display: block;
+  height: auto;
+  display: inline-block;
   background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6000000", endColorstr="#00000000", GradientType=0);
@@ -193,6 +194,10 @@ hr {
 
 .section-one .uk-card:hover img {
   opacity: 0.8; }
+
+.section-header {
+  height: 600px;
+  width: 100%; }
 
 .section-header img {
   height: 600px;
@@ -335,6 +340,8 @@ hr {
     height: 35px;
     filter: drop-shadow(1px 1px 1px #999);
     object-fit: contain; }
+  .section-header {
+    height: 450px; }
   .section-header img {
     height: 450px; }
   .uk-card-body {

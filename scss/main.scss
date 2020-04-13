@@ -91,7 +91,8 @@ a:hover {
 }
 
 .pickgradient {
-  display: block;
+  height: auto;
+  display: inline-block;
   background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
 }
@@ -234,6 +235,8 @@ hr { width: 80%;}
 }
 
 .section-header{
+  height: 600px;
+  width: 100%;
   img{
     height: 600px;
     object-fit: cover;
@@ -434,6 +437,7 @@ hr { width: 80%;}
   }
 
   .section-header{
+    height: 450px;
     img{
       height: 450px;
     }
