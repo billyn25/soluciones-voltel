@@ -275,6 +275,7 @@ hr {
 .section-footer {
   padding-bottom: 40px;
   margin-top: 140px;
+  border-top: 20px solid #bd1225;
 }
 
 .footer_content {
@@ -343,7 +344,7 @@ hr {
 }
 
 .footer_logo {
-  margin-top: -96px;
+  margin-top: -106px;
 }
 
 /* css para movil */
