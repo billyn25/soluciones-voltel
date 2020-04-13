@@ -148,9 +148,10 @@ padding-right: 13px!important;
 
 .dropdown-menu {
   background-color: $secondary-color;
+  width: auto !important;
   .dropdown-item {
-    padding: 20px !important;
-    font-size: 0.9rem !important;
+    padding: 17px !important;
+    font-size: 0.8rem !important;
     font-weight: bold !important;
     &:hover {
       background-color: $footer-color;
