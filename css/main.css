@@ -241,7 +241,7 @@ hr {
 .section-footer {
   padding-bottom: 40px;
   margin-top: 140px;
-  border-top: 20px solid #bd1225; }
+  border-top: 15px solid #bd1225; }
 
 .footer_content {
   padding-top: 40px;
@@ -297,7 +297,7 @@ hr {
   color: #6d6d6d; }
 
 .footer_logo {
-  margin-top: -106px; }
+  margin-top: -104px; }
 
 /* css para movil */
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
