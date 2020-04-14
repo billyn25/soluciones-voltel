@@ -309,13 +309,13 @@ hr {
     padding-bottom: 15px; }
   .section-slider img, .section-header img {
     object-position: 80% 50%; }
-  .section-slider .uk-overlay, .section-header .uk-overlay {
-    padding: 20px;
-    flex-wrap: wrap; }
-  .section-slider .uk-overlay2, .section-header .uk-overlay2 {
-    left: 25px !important; }
   .section-slider h1, .section-header h1 {
     font-size: 1.4rem; }
+  .section-slider .uk-overlay {
+    padding: 20px;
+    flex-wrap: wrap; }
+  .section-slider .uk-overlay2 {
+    left: 25px !important; }
   #main span {
     font-size: 38px; }
   .form-inline {

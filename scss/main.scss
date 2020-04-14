@@ -381,6 +381,13 @@ hr { width: 80%;}
       object-position: 80% 50%;
     }
 
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+
+  .section-slider {
+    
     .uk-overlay {
       padding: 20px;
       flex-wrap: wrap;
@@ -388,10 +395,6 @@ hr { width: 80%;}
 
     .uk-overlay2 {
       left: 25px !important;
-    }
-
-    h1 {
-      font-size: 1.4rem;
     }
   }
 

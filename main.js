@@ -49,9 +49,6 @@ function setDimensions(){
     overlay2.css('left', windowsWidth/2-65 + 'px');
 
     $('.sidenav').css('height', windowsHeight + 'px');
-
-    //sub sections img
-    img.css('width', windowsWidth + 'px');
 }
 
 //when resizing the site, we adjust the heights of the sections
