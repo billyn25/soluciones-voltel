@@ -116,7 +116,7 @@ a:hover {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 0 52px 35px 0;
+  padding: 0 50px 35px 0;
   text-decoration: none;
   font-size: 16px;
   color: #ffffff;
@@ -166,8 +166,8 @@ a:hover {
 #main .navbar-toggler {
   display: block;
   border-color: white;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 9px !important;
+  padding-right: 9px !important;
 }
 #main .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -380,7 +380,7 @@ hr {
   }
 
   .sidenav a {
-    padding: 0px 38px 35px 0;
+    padding: 0px 36px 35px 0;
   }
 
   .nav-link {
