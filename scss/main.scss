@@ -373,7 +373,6 @@ hr { width: 80%;}
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     .navbar {
-      align-items: center !important;
       padding-left: 25px;
       padding-right: 25px;
     }
@@ -406,10 +405,6 @@ hr { width: 80%;}
 
   .sidenav a {
     padding: 0px 33px 15px 0;
-  }
-
-  .sidenav .closebtn {
-    top: 5px;
   }
 
   .nav-link {
