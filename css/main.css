@@ -41,18 +41,24 @@ a:hover {
 .navColor {
   background-color: rgba(46, 46, 46, 0.9) !important; }
 
-.section-slider {
-  height: auto;
+.section-slider, .section-header {
   font-size: 1.9rem;
   overflow: hidden;
   position: relative; }
 
-.section-slider .uk-slideshow-items img {
+.section-slider .uk-slideshow-items img, .section-header .uk-slideshow-items img {
   width: 100%;
   object-fit: cover;
   position: relative;
   z-index: -1;
   display: block; }
+
+.section-slider .pickgradient, .section-header .pickgradient {
+  display: inline-block;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6000000", endColorstr="#00000000", GradientType=0);
+  /* IE6-9 */ }
 
 .section-slider .uk-overlay {
   margin: 0 55px 0 55px;
@@ -65,14 +71,6 @@ a:hover {
   width: 130px;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.42) !important; }
-
-.pickgradient {
-  height: auto;
-  display: inline-block;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6000000", endColorstr="#00000000", GradientType=0);
-  /* IE6-9 */ }
 
 .section-one, .section-two, .section-three, .section-form {
   margin-top: 100px;
@@ -196,12 +194,10 @@ hr {
   opacity: 0.8; }
 
 .section-header {
-  height: 600px;
-  width: 100%; }
+  height: 600px !important; }
 
-.section-header img {
-  height: 600px;
-  object-fit: cover;
+.section-header .uk-slideshow-items img {
+  height: 600px !important;
   object-position: 70% 35%; }
 
 .section-form a:hover {
@@ -311,14 +307,14 @@ hr {
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px; }
-  .section-slider img {
+  .section-slider img, .section-header img {
     object-position: 80% 50%; }
-  .section-slider .uk-overlay {
+  .section-slider .uk-overlay, .section-header .uk-overlay {
     padding: 20px;
     flex-wrap: wrap; }
-  .section-slider .uk-overlay2 {
+  .section-slider .uk-overlay2, .section-header .uk-overlay2 {
     left: 25px !important; }
-  .section-slider h1 {
+  .section-slider h1, .section-header h1 {
     font-size: 1.4rem; }
   #main span {
     font-size: 38px; }
@@ -341,9 +337,9 @@ hr {
     filter: drop-shadow(1px 1px 1px #999);
     object-fit: contain; }
   .section-header {
-    height: 450px; }
-  .section-header img {
-    height: 450px; }
+    height: 450px !important; }
+  .section-header .uk-slideshow-items img {
+    height: 450px !important; }
   .uk-card-body {
     padding: 33px !important; }
   .d-noneW {
