@@ -116,13 +116,16 @@ a:hover {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 0 47px 15px 0;
+  padding: 0 52px 25px 0;
   text-decoration: none;
   font-size: 16px;
   color: #ffffff;
   display: block;
   transition: 0.3s;
   height: auto;
+}
+.sidenav ul li:first-child a {
+  right: -5px;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -139,7 +142,7 @@ a:hover {
 }
 
 .nav-link {
-  padding-right: 13px !important;
+  padding-right: 20px !important;
 }
 
 .dropdown-menu {
@@ -380,11 +383,11 @@ hr {
   }
 
   .sidenav a {
-    padding: 0px 33px 15px 0;
+    padding: 0px 38px 15px 0;
   }
 
   .nav-link {
-    padding-right: 0px !important;
+    padding-right: 6px !important;
   }
 
   .section-one, .section-two, .section-three, .section-form {
