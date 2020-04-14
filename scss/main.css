@@ -146,6 +146,7 @@ a:hover {
 }
 
 .dropdown-menu {
+  top: 40px;
   background-color: #2e2e2e;
   width: auto !important;
 }
@@ -158,7 +159,6 @@ a:hover {
   background-color: #6d6d6d;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   top: 0;
   right: 0;
@@ -351,7 +351,7 @@ hr {
   margin-top: -104px;
 }
 
-/* css para movil */
+/* css para movil o tablet*/
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header .navbar {
     padding-left: 25px;

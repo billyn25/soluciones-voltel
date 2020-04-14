@@ -153,6 +153,7 @@ padding-right: 20px!important;
 }
 
 .dropdown-menu {
+  top:40px;
   background-color: $secondary-color;
   width: auto !important;
   .dropdown-item {
@@ -165,7 +166,6 @@ padding-right: 20px!important;
   }
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   top: 0;
   right: 0;
@@ -367,7 +367,7 @@ hr { width: 80%;}
   margin-top: -104px;
 }
 
-/* css para movil */
+/* css para movil o tablet*/
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     .navbar {
