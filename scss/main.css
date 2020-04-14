@@ -67,7 +67,7 @@ a:hover {
 }
 .section-slider .pickgradient, .section-header .pickgradient {
   display: inline-block;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6000000", endColorstr="#00000000", GradientType=0);
   /* IE6-9 */
