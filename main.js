@@ -2,12 +2,12 @@
 let mainIcon = $('.navbar-toggler');
 function openNav() {
     document.getElementById("mySidenav").style.right = "0px";
-    document.getElementById("main").style.marginRight = "300px";
+    document.getElementById("main").style.marginRight = "320px";
     mainIcon.css('display', 'none');
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.right = "-300px";
+    document.getElementById("mySidenav").style.right = "-320px";
     document.getElementById("main").style.marginRight= "0";
     mainIcon.css('display', 'block');
 }
