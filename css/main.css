@@ -306,6 +306,7 @@ hr {
 /* css para movil */
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header .navbar {
+    align-items: center !important;
     padding-left: 25px;
     padding-right: 25px; }
   .section-slider img, .section-header img {
@@ -321,6 +322,8 @@ hr {
     padding-right: 30px; }
   .sidenav a {
     padding: 0px 33px 15px 0; }
+  .sidenav .closebtn {
+    top: 5px; }
   .nav-link {
     padding-right: 0px !important; }
   .section-one, .section-two, .section-three, .section-form {
