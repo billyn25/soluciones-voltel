@@ -10,22 +10,14 @@ function closeNav() {
 }
 
 //evento para el header nav, cuando haces scroll
-
-let imgLogo = document.getElementById("logo")
-let windowsHeight = window.innerHeight;
-let windowsWidth = window.innerWidth;
-let slider = $('.uk-slideshow-items');
+let imgLogo = document.getElementById("logo");
 let sliderImg = $('.uk-slideshow-items img');
-let overlay2 = $('.uk-overlay2');
-
-//img submenus
-let img = $('.section-header img');
 
 $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
 
-        if (scroll > sliderImg.innerHeight() - 155) {
+        if (scroll > sliderImg.innerHeight()-155) {
             $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width = '65px';
@@ -41,6 +33,11 @@ $(document).ready(function () {
 
 //ajustar imagen slider segun pantalla
 function setDimensions(){
+
+    let windowsHeight = window.innerHeight;
+    let windowsWidth = window.innerWidth;
+    let slider = $('.uk-slideshow-items');
+    let overlay2 = $('.uk-overlay2');
 
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
