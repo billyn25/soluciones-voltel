@@ -121,7 +121,7 @@ a:hover {
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 0px 45px 15px 0;
+  padding: 0 47px 15px 0;
   text-decoration: none;
   font-size: 16px;
   color: #ffffff;
@@ -138,8 +138,8 @@ a:hover {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   font-size: 50px;
 }
 
@@ -169,6 +169,11 @@ padding-right: 13px!important;
 
   .navbar-toggler{
     display: block;
+    border-color: white;
+  }
+  .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 
   span:hover {
@@ -399,7 +404,7 @@ hr { width: 80%;}
   }
 
   .sidenav a {
-    padding: 0px 35px 15px 0;
+    padding: 0px 33px 15px 0;
   }
 
   .nav-link {
