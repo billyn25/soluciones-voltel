@@ -24,12 +24,14 @@ $(document).ready(function () {
             $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width = '65px';
-            imgLogo.style.height = 'auto'
+            imgLogo.style.height = 'auto';
+            imgLogo.style.marginTop = '-6px';
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
             imgLogo.style.width = '110px';
             imgLogo.style.height = 'auto';
+            imgLogo.style.marginTop = '0px';
         }
     });
 });
