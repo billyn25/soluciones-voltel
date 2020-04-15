@@ -25,7 +25,7 @@ $(document).ready(function () {
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width = '65px';
             imgLogo.style.height = 'auto';
-            imgLogo.style.marginTop = '-10px';
+            imgLogo.style.marginTop = '-8px';
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
