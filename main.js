@@ -23,7 +23,7 @@ $(document).ready(function () {
         if (scroll > sliderImg.innerHeight()-155) {
             $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
-            imgLogo.style.width = '65px';
+            imgLogo.style.width = '70px';
             imgLogo.style.height = 'auto';
             imgLogo.style.marginTop = '-8px';
         } else {
