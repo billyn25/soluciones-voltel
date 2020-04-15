@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f933d2-fcce-4d1b-898b-38dc14b882da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/safire_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cctv.html" beforeDir="false" afterPath="$PROJECT_DIR$/cctv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <workItem from="1586527169205" duration="5467000" />
       <workItem from="1586646158156" duration="684000" />
       <workItem from="1586647390818" duration="36551000" />
-      <workItem from="1586956781261" duration="7693000" />
+      <workItem from="1586956781261" duration="8133000" />
     </task>
     <servers />
   </component>
