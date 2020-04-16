@@ -370,7 +370,7 @@ hr { width: 80%;}
 }
 
 /* css para movil o tablet*/
-@media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 376px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     .navbar {
       padding-left: 25px;
@@ -448,5 +448,15 @@ hr { width: 80%;}
     .footer_col {
       padding-top: 25px;
     }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width:375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section-one,.section-two,.section-three,.section-form {
+    padding: 0 8px 0 8px;
+  }
+
+  .uk-card-body {
+    padding: 33px 20px 33px 20px !important;
   }
 }
