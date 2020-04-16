@@ -232,6 +232,9 @@ hr {
   opacity: 0.8;
 }
 
+.section-miniservices .uk-card {
+  border: 1px solid #bd1225;
+}
 .section-miniservices img {
   height: 200px !important;
 }

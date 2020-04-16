@@ -258,11 +258,14 @@ hr {
 }
 
 .section-miniservices{
+  .uk-card{
+    border: 1px solid #bd1225;
+  ;
+  }
     img {
       height: 200px !important;
     }
 }
-
 
 .section-header {
   height: 600px !important;
