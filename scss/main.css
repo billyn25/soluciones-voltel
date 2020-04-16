@@ -423,13 +423,24 @@ hr {
     padding-top: 25px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 0px) and (max-width: 370px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-one, .section-two, .section-three, .section-form {
     padding: 0 8px 0 8px;
   }
 
   .uk-card-body {
     padding: 33px 20px 33px 20px !important;
+  }
+
+  #mySidenav {
+    padding-top: 95px;
+  }
+
+  .sidenav ul {
+    padding-bottom: 0px !important;
+  }
+  .sidenav a {
+    padding-bottom: 25px;
   }
 }
 
