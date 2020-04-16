@@ -377,7 +377,7 @@ hr { width: 80%;}
 }
 
 /* css para movil o tablet*/
-@media only screen and (min-width: 376px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 375px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     .navbar {
       padding-left: 25px;
@@ -408,6 +408,10 @@ hr { width: 80%;}
 
   .form-inline {
     padding-right: 38px;
+  }
+
+  #mySidenav{
+    padding-top: 110px !important;
   }
 
   .sidenav a {
