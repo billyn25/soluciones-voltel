@@ -1,6 +1,6 @@
 //nav lateral
 let mainIcon = $('.navbar-toggler');
-let menu = $('#mySidenav')
+let menu = $('#mySidenav');
 
 function openNav() {
     menu.addClass('is-active');
@@ -21,8 +21,7 @@ $(document).mouseup(e => {
     }
 });
 
-
-//evento para el header nav, cuando haces scroll
+//evento para el header header nav, cuando haces scroll
 let imgLogo = document.getElementById("logo");
 let sliderImg = $('.uk-slideshow-items img');
 
