@@ -84,8 +84,7 @@ a:hover {
 .section-slider {
 
   .uk-overlay {
-    margin: 0 55px 0 55px;
-    padding: 50px;
+    padding: 40px 55px 40px 55px;
     background-color: rgba(0, 0, 0, 0.6) !important;
   }
   .uk-overlay2 {
@@ -395,11 +394,6 @@ hr { width: 80%;}
   }
 
   .section-slider {
-
-    .uk-overlay {
-      padding: 20px;
-      flex-wrap: wrap;
-    }
 
     .uk-overlay2 {
       left: 25px !important;

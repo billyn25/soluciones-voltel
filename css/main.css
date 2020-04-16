@@ -61,8 +61,7 @@ a:hover {
   /* IE6-9 */ }
 
 .section-slider .uk-overlay {
-  margin: 0 55px 0 55px;
-  padding: 50px;
+  padding: 40px 55px 40px 55px;
   background-color: rgba(0, 0, 0, 0.6) !important; }
 
 .section-slider .uk-overlay2 {
@@ -318,9 +317,6 @@ hr {
     object-position: 80% 50%; }
   .section-slider h1, .section-header h1 {
     font-size: 1.4rem; }
-  .section-slider .uk-overlay {
-    padding: 20px;
-    flex-wrap: wrap; }
   .section-slider .uk-overlay2 {
     left: 25px !important; }
   .form-inline {
