@@ -85,11 +85,11 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.42) !important;
 }
 
-.section-one, .section-two, .section-three, .section-form {
+.section-one, .section-two, .section-three, .section-form, .section-miniservices {
   margin-top: 100px;
   padding: 0 100px 0 100px;
 }
-.section-one p, .section-two p, .section-three p, .section-form p {
+.section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
   font-size: 0.9rem;
 }
 
@@ -227,8 +227,13 @@ hr {
   flex-wrap: nowrap;
 }
 
-.section-one .uk-card:hover img {
+.section-one .uk-card:hover img,
+.section-miniservices .uk-card:hover img {
   opacity: 0.8;
+}
+
+.section-miniservices img {
+  height: 200px !important;
 }
 
 .section-header {
@@ -393,10 +398,10 @@ hr {
     padding-right: 6px !important;
   }
 
-  .section-one, .section-two, .section-three, .section-form {
+  .section-one, .section-two, .section-three, .section-form, .section-miniservices {
     padding: 0 20px 0 20px;
   }
-  .section-one p, .section-two p, .section-three p, .section-form p {
+  .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
     font-size: 1rem;
   }
 

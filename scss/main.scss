@@ -97,7 +97,7 @@ a:hover {
   }
 }
 
-.section-one, .section-two, .section-three, .section-form {
+.section-one, .section-two, .section-three, .section-form,.section-miniservices {
   margin-top: $margin-top-section;
   padding: 0 $padding-section 0 $padding-section;
 
@@ -252,9 +252,17 @@ hr {
   }
 }
 
-.section-one .uk-card:hover img {
+.section-one .uk-card:hover img,
+.section-miniservices .uk-card:hover img{
   opacity: 0.8;
 }
+
+.section-miniservices{
+    img {
+      height: 200px !important;
+    }
+}
+
 
 .section-header {
   height: 600px !important;
@@ -430,7 +438,7 @@ hr {
     padding-right: 6px !important;
   }
 
-  .section-one, .section-two, .section-three, .section-form {
+  .section-one, .section-two, .section-three, .section-form,.section-miniservices {
     padding: 0 20px 0 20px;
 
     p {

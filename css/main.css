@@ -71,11 +71,11 @@ a:hover {
   height: 60px;
   background-color: rgba(0, 0, 0, 0.42) !important; }
 
-.section-one, .section-two, .section-three, .section-form {
+.section-one, .section-two, .section-three, .section-form, .section-miniservices {
   margin-top: 100px;
   padding: 0 100px 0 100px; }
 
-.section-one p, .section-two p, .section-three p, .section-form p {
+.section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
   font-size: 0.9rem; }
 
 /* The side navigation menu */
@@ -198,8 +198,12 @@ hr {
   margin: 0 !important;
   flex-wrap: nowrap; }
 
-.section-one .uk-card:hover img {
+.section-one .uk-card:hover img,
+.section-miniservices .uk-card:hover img {
   opacity: 0.8; }
+
+.section-miniservices img {
+  height: 200px !important; }
 
 .section-header {
   height: 600px !important; }
@@ -327,9 +331,9 @@ hr {
     padding: 0px 36px 35px 0; }
   .nav-link {
     padding-right: 6px !important; }
-  .section-one, .section-two, .section-three, .section-form {
+  .section-one, .section-two, .section-three, .section-form, .section-miniservices {
     padding: 0 20px 0 20px; }
-  .section-one p, .section-two p, .section-three p, .section-form p {
+  .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
     font-size: 1rem; }
   .section-three ul li img {
     width: 130px;
