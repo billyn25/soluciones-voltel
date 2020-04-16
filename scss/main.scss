@@ -135,6 +135,12 @@ a:hover {
   }
 }
 
+/* menu lateral show, control in js file */
+.is-active {
+  right: 320px !important;
+  margin-right: -320px !important;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #292929;

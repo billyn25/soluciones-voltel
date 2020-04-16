@@ -1,16 +1,26 @@
 //nav lateral
 let mainIcon = $('.navbar-toggler');
+let menu = $('#mySidenav')
+
 function openNav() {
-    document.getElementById("mySidenav").style.right = "0px";
-    document.getElementById("main").style.marginRight = "320px";
+    menu.addClass('is-active');
     mainIcon.css('display', 'none');
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.right = "-320px";
-    document.getElementById("main").style.marginRight= "0";
+    menu.removeClass('is-active');
     mainIcon.css('display', 'block');
 }
+
+$(document).mouseup(e => {
+    if (!menu.is(e.target) // if the target of the click isn't the container...
+        && menu.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        menu.removeClass('is-active');
+        mainIcon.css('display', 'block');
+    }
+});
+
 
 //evento para el header nav, cuando haces scroll
 let imgLogo = document.getElementById("logo");
