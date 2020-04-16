@@ -1,8 +1,8 @@
 $primary-color: #515151;
 $secondary-color: rgb(46, 46, 46);
 $footer-color: #6d6d6d;
-$padding-section:100px;
-$margin-top-section:100px;
+$padding-section: 100px;
+$margin-top-section: 100px;
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 * {
   box-sizing: border-box;
@@ -60,7 +60,7 @@ a:hover {
   background-color: rgba(46, 46, 46, 0.9) !important;
 }
 
-.section-slider,.section-header {
+.section-slider, .section-header {
 
   font-size: 1.9rem;
   overflow: hidden;
@@ -87,6 +87,7 @@ a:hover {
     padding: 40px 56px 40px 56px;
     background-color: rgba(0, 0, 0, 0.6) !important;
   }
+
   .uk-overlay2 {
     position: absolute;
     z-index: 6 !important;
@@ -96,7 +97,7 @@ a:hover {
   }
 }
 
-.section-one, .section-two, .section-three,.section-form {
+.section-one, .section-two, .section-three, .section-form {
   margin-top: $margin-top-section;
   padding: 0 $padding-section 0 $padding-section;
 
@@ -119,7 +120,7 @@ a:hover {
 }
 
 /* The navigation menu links */
-.sidenav{
+.sidenav {
   a {
     padding: 0 50px 35px 0;
     text-decoration: none;
@@ -129,6 +130,7 @@ a:hover {
     transition: 0.3s;
     height: auto;
   }
+
   ul li:first-child a {
     right: -5px;
   }
@@ -154,17 +156,19 @@ a:hover {
 }
 
 .nav-link {
-padding-right: 20px!important;
+  padding-right: 20px !important;
 }
 
 .dropdown-menu {
-  top:40px;
+  top: 40px;
   background-color: $secondary-color;
   width: auto !important;
+
   .dropdown-item {
     padding: 17px !important;
     font-size: 0.8rem !important;
     font-weight: bold !important;
+
     &:hover {
       background-color: $footer-color;
     }
@@ -174,12 +178,14 @@ padding-right: 20px!important;
 #main {
   top: 0;
   right: 0;
-  .navbar-toggler{
+
+  .navbar-toggler {
     display: block;
     border-color: white;
     padding-left: 9px !important;
     padding-right: 9px !important;
   }
+
   .navbar-toggler-icon {
     background-image: url(
     "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -188,17 +194,21 @@ padding-right: 20px!important;
 
 .form-inline {
   padding-right: 52px;
-  a{
+
+  a {
     margin-left: 20px !important;
   }
 }
 
-hr { width: 80%;}
+hr {
+  width: 80%;
+}
 
 .title {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .uk-card {
   height: auto;
 
@@ -218,20 +228,22 @@ hr { width: 80%;}
 }
 
 .section-two {
-  .uk-card{
-    img{
+  .uk-card {
+    img {
       width: 105px;
       height: 105px;
     }
   }
 }
-.section-three{
-  ul li img{
+
+.section-three {
+  ul li img {
     width: 155px;
     height: 45px;
     filter: drop-shadow(1px 1px 1px #999);
     object-fit: contain;
   }
+
   .uk-slider-nav {
     position: relative;
     bottom: -27px !important;
@@ -240,27 +252,29 @@ hr { width: 80%;}
   }
 }
 
-.section-one .uk-card:hover img{
+.section-one .uk-card:hover img {
   opacity: 0.8;
 }
 
-.section-header{
+.section-header {
   height: 600px !important;
-  .uk-slideshow-items img{
+
+  .uk-slideshow-items img {
     height: 600px !important;
     object-position: 70% 35%;
   }
 }
 
 .section-form {
-  a:hover{
+  a:hover {
     color: #bd1225 !important;
   }
 
   .cv {
     margin-top: $margin-top-section;
+
     div img {
-    object-fit: cover;
+      object-fit: cover;
     }
   }
 }
@@ -376,14 +390,14 @@ hr { width: 80%;}
 }
 
 /* css para movil o tablet*/
-@media only screen and (min-width: 375px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     .navbar {
       padding-left: 25px;
       padding-right: 25px;
     }
   }
-  .section-slider,.section-header {
+  .section-slider, .section-header {
     img {
       object-position: 80% 50%;
     }
@@ -404,7 +418,7 @@ hr { width: 80%;}
     padding-right: 38px;
   }
 
-  #mySidenav{
+  #mySidenav {
     padding-top: 110px !important;
   }
 
@@ -413,10 +427,10 @@ hr { width: 80%;}
   }
 
   .nav-link {
-    padding-right: 6px!important;
+    padding-right: 6px !important;
   }
 
-  .section-one,.section-two,.section-three,.section-form {
+  .section-one, .section-two, .section-three, .section-form {
     padding: 0 20px 0 20px;
 
     p {
@@ -424,8 +438,8 @@ hr { width: 80%;}
     }
   }
 
-  .section-three{
-    ul li img{
+  .section-three {
+    ul li img {
       width: 130px;
       height: 35px;
       filter: drop-shadow(1px 1px 1px #999);
@@ -433,9 +447,10 @@ hr { width: 80%;}
     }
   }
 
-  .section-header{
+  .section-header {
     height: 450px !important;
-    .uk-slideshow-items img{
+
+    .uk-slideshow-items img {
       height: 450px !important;
     }
   }
@@ -450,28 +465,30 @@ hr { width: 80%;}
 
   .section-footer {
     padding-bottom: 110px;
+
     .footer_col {
       padding-top: 25px;
     }
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width:374px) and (-webkit-min-device-pixel-ratio: 2) {
-  .section-one,.section-two,.section-three,.section-form {
+@media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section-one, .section-two, .section-three, .section-form {
     padding: 0 8px 0 8px;
   }
-
+  
   .uk-card-body {
     padding: 33px 20px 33px 20px !important;
   }
 
-  #mySidenav{
+  #mySidenav {
     padding-top: 95px;
   }
-  .sidenav{
+  .sidenav {
     ul {
       padding-bottom: 0px !important;
     }
+
     a {
       padding-bottom: 25px;
     }

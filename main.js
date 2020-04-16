@@ -29,7 +29,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
 
-        if (scroll > sliderImg.innerHeight()-155) {
+        if (scroll > sliderImg.innerHeight() - 155) {
             $("header nav").addClass('navColor');
             imgLogo.src = "img/voltel_2.png";
             imgLogo.style.width = '65px';
@@ -46,7 +46,7 @@ $(document).ready(function () {
 });
 
 //ajustar imagen slider segun pantalla
-function setDimensions(){
+function setDimensions() {
 
     let windowsHeight = window.innerHeight;
     let windowsWidth = window.innerWidth;
@@ -59,14 +59,14 @@ function setDimensions(){
     sliderImg.css('height', windowsHeight + 'px');
     sliderImg.css('width', windowsWidth + 'px');
 
-    overlay2.css('top', windowsHeight-90 + 'px');
-    overlay2.css('left', windowsWidth/2-65 + 'px');
+    overlay2.css('top', windowsHeight - 90 + 'px');
+    overlay2.css('left', windowsWidth / 2 - 65 + 'px');
 
     $('.sidenav').css('height', windowsHeight + 'px');
 }
 
 //when resizing the site, we adjust the heights of the sections
-$(window).resize(function() {
+$(window).resize(function () {
     setDimensions();
 });
 
@@ -78,6 +78,7 @@ let errormsg = document.getElementById('emailerror');
 let status = "";
 
 email.addEventListener("focus", checkEmail);
+
 function checkEmail() {
 
     email.addEventListener("keyup", function () {
@@ -101,12 +102,13 @@ function checkEmail() {
         }
     });
 }
+
 email.removeEventListener("focusout", checkEmail);
 
 // ajax para prevenir que el php muestre su pagina
-$(document).ready(function() {
-    $('#form').submit(function(e){
-        if (status === "yes" && email!=='') {
+$(document).ready(function () {
+    $('#form').submit(function (e) {
+        if (status === "yes" && email !== '') {
             e.preventDefault();
             var formData = new FormData(this);
             $.ajax({
