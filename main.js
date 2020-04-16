@@ -75,29 +75,33 @@ setDimensions();
 //eventos para el email
 let email = document.getElementById('inputEmail4');
 let errormsg = document.getElementById('emailerror');
-
 let status = "";
 
-email.addEventListener("keyup", function () {
+email.addEventListener("focus", checkEmail);
+function checkEmail() {
 
-    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    email.addEventListener("keyup", function () {
 
-    if (regexEmail.test(email.value)) {
+        let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-        status = "yes";
-        email.classList.remove("is-invalid");
-        email.classList.add("is-valid");
-        email.classList.remove("bg-danger");
-        email.classList.remove("text-white");
+        if (regexEmail.test(email.value)) {
 
-    } else {
+            status = "yes";
+            email.classList.remove("is-invalid");
+            email.classList.add("is-valid");
+            email.classList.remove("bg-danger");
+            email.classList.remove("text-white");
 
-        status = "not";
-        email.classList.remove("is-valid");
-        email.classList.add("is-invalid");
-        errormsg.classList.add("d-none");
-    }
-});
+        } else {
+
+            status = "not";
+            email.classList.remove("is-valid");
+            email.classList.add("is-invalid");
+            errormsg.classList.add("d-none");
+        }
+    });
+}
+email.removeEventListener("focusout", checkEmail);
 
 // ajax para prevenir que el php muestre su pagina
 $(document).ready(function() {
