@@ -219,6 +219,7 @@ hr {
   position: relative;
   bottom: -27px !important;
   margin: 0 !important;
+  flex-wrap: nowrap;
 }
 
 .section-one .uk-card:hover img {
