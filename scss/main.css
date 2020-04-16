@@ -434,7 +434,7 @@ hr {
     padding-top: 25px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 370px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-one, .section-two, .section-three, .section-form {
     padding: 0 8px 0 8px;
   }
