@@ -117,7 +117,7 @@ $(document).ready(function () {
 });
 
 //back to top
-$(document).ready(function(){
+$(document).ready(function () {
     // scroll body to 0px on click
     $('#return-to-top').click(function () {
         $('body,html').animate({
@@ -132,7 +132,7 @@ let email = document.getElementById('inputEmail4');
 let errormsg = document.getElementById('emailerror');
 let status = "";
 
-if(email){
+if (email) {
     email.addEventListener("keyup", function () {
 
         let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
