@@ -492,7 +492,7 @@ hr {
   }
 
   #mySidenav {
-    padding-top: 90px;
+    padding-top: 90px !important;
   }
 
   .sidenav ul {
