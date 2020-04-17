@@ -35,12 +35,16 @@ $(document).ready(function () {
             imgLogo.style.width = '65px';
             imgLogo.style.height = 'auto';
             imgLogo.style.marginTop = '-7px';
+
+            $('#return-to-top').fadeIn(200);
         } else {
             $("header nav").removeClass('navColor');
             imgLogo.src = "img/voltel.png";
             imgLogo.style.width = '110px';
             imgLogo.style.height = 'auto';
             imgLogo.style.marginTop = '0px';
+
+            $('#return-to-top').fadeOut(200);
         }
     });
 });
@@ -71,39 +75,6 @@ $(window).resize(function () {
 });
 
 setDimensions();
-
-//eventos para el email
-let email = document.getElementById('inputEmail4');
-let errormsg = document.getElementById('emailerror');
-let status = "";
-
-email.addEventListener("focus", checkEmail);
-
-function checkEmail() {
-
-    email.addEventListener("keyup", function () {
-
-        let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
-        if (regexEmail.test(email.value)) {
-
-            status = "yes";
-            email.classList.remove("is-invalid");
-            email.classList.add("is-valid");
-            email.classList.remove("bg-danger");
-            email.classList.remove("text-white");
-
-        } else {
-
-            status = "not";
-            email.classList.remove("is-valid");
-            email.classList.add("is-invalid");
-            errormsg.classList.add("d-none");
-        }
-    });
-}
-
-email.removeEventListener("focusout", checkEmail);
 
 // ajax para prevenir que el php muestre su pagina
 $(document).ready(function () {
@@ -144,3 +115,42 @@ $(document).ready(function () {
         }
     });
 });
+
+//back to top
+$(document).ready(function(){
+    // scroll body to 0px on click
+    $('#return-to-top').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+});
+
+//event email
+let email = document.getElementById('inputEmail4');
+let errormsg = document.getElementById('emailerror');
+let status = "";
+
+if(email){
+    email.addEventListener("keyup", function () {
+
+        let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+        if (regexEmail.test(email.value)) {
+
+            status = "yes";
+            email.classList.remove("is-invalid");
+            email.classList.add("is-valid");
+            email.classList.remove("bg-danger");
+            email.classList.remove("text-white");
+
+        } else {
+
+            status = "not";
+            email.classList.remove("is-valid");
+            email.classList.add("is-invalid");
+            errormsg.classList.add("d-none");
+        }
+    });
+}
