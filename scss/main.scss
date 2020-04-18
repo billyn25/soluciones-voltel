@@ -260,11 +260,13 @@ hr {
 .section-miniservices{
   .uk-card{
     border: 1px solid $secondary-color;
-  ;
   }
     img {
       height: 200px !important;
     }
+  .uk-overlay{
+    text-align: center;
+  }
 }
 
 .section-header {

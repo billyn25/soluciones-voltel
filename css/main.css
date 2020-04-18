@@ -205,6 +205,9 @@ hr {
 .section-miniservices img {
   height: 200px !important; }
 
+.section-miniservices .uk-overlay {
+  text-align: center; }
+
 .section-header {
   height: 600px !important; }
 
