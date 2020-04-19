@@ -39,7 +39,7 @@ $(document).ready(function () {
                 contentType: false,
                 cache: false,
                 processData: false,
-                url: "form_contact.php", // FICHERO DONDE ESTA LA LOGICA DEL ENVIO, este devuelve un array algo asi $return['status'] = 1 si lo envia ò $return['status'] = 0 si falla
+                url: "php/form_contact.php", // FICHERO DONDE ESTA LA LOGICA DEL ENVIO, este devuelve un array algo asi $return['status'] = 1 si lo envia ò $return['status'] = 0 si falla
                 success: function (data) {
                     data = JSON.parse(data)
                     if (data.result == true) {
