@@ -433,7 +433,6 @@ hr {
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
-  display: none;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -459,6 +458,16 @@ hr {
 #return-to-top:hover i {
   color: #fff;
   top: 5px;
+}
+
+.fadeOut{
+  opacity:0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+
+}
+.fadeIn{
+  opacity:1;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
 }
 
 /* css para movil o tablet*/
