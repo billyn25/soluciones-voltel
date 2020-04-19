@@ -40,7 +40,7 @@ class Footer extends React.Component {
                                 <div className="footer_item text-center">
                                     <div
                                         className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-                                        <div><img src="img/phone.png" alt=""/></div>
+                                        <div><img src="img/icon/phone.png" alt=""/></div>
                                     </div>
                                     <div className="footer_title">Móvil</div>
                                     <div className="footer_list">
@@ -56,7 +56,7 @@ class Footer extends React.Component {
                                 <div className="footer_item text-center">
                                     <div
                                         className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-                                        <div><img src="img/mail.png" alt="" /></div>
+                                        <div><img src="img/icon/mail.png" alt="" /></div>
                                     </div>
                                     <div className="footer_title">e-mail</div>
                                     <div className="footer_list">
@@ -71,7 +71,7 @@ class Footer extends React.Component {
                                 <div className="footer_item text-center">
                                     <div
                                         className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-                                        <div><img src="img/contact.png" alt=""/></div>
+                                        <div><img src="img/icon/contact.png" alt=""/></div>
                                     </div>
                                     <div className="footer_title">localización</div>
                                     <div className="footer_list">

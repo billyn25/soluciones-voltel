@@ -51,7 +51,7 @@ class Header extends React.Component {
         return (
             <nav className={this.state.logo==='big'?'navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between':'navColor navbar navbar-expand-lg navbar-dark fixed-top d-flex justify-content-between'}>
                 <a href="index.html" className="text-white">
-                    <img id="logo" src={this.state.logo==='big'?'img/voltel.png':'img/voltel_2.png'}
+                    <img id="logo" src={this.state.logo==='big'?'img/icon/voltel.png':'img/icon/voltel_2.png'}
                          alt="voltel logo" className={this.state.logo==='big'?'logoBig':'logoSmall'}/>
                 </a>
                 <div id="mySidenav" ref={node => this.node = node}
