@@ -54,32 +54,29 @@ class Header extends React.Component {
                     <img id="logo" src={this.state.logo==='big'?'img/icon/voltel.png':'img/icon/voltel_2.png'}
                          alt="voltel logo" className={this.state.logo==='big'?'logoBig':'logoSmall'}/>
                 </a>
-                <div id="mySidenav" ref={node => this.node = node}
-                     className={`sidenav text-right ${this.state.active}`}>
+                <div id="mySidenav" ref={node => this.node = node} className={`sidenav text-right ${this.state.active}`}>
                     <ul className="pb-3">
-                        <li><a href="javascript:void(0)" id="buttonX" className="closebtn"
-                               onClick={this.closeNav}>&times;</a></li>
-                        <li><a href="nosotros.html">Sobre nosotros</a></li>
+                        <li>
+                            <a href="javascript:void(0)" id="buttonX" className="closebtn" onClick={this.closeNav}>&times;</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html">Sobre nosotros</a>
+                        </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios
+                            </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item text-white" href="redes.html"><img src="img/icon/wifi.svg"
-                                                                                               width="20px" height="20"
-                                                                                               className="mr-3"/>INSTALACIÓN
-                                    DE REDES</a>
-                                <a className="dropdown-item text-white" href="certificaciones.html"><img
-                                    src="img/icon/correcto.svg" width="20px" height="20" className="mr-3"/>CERTIFICACIONES
-                                    UTP</a>
-                                <a className="dropdown-item text-white" href="domotica.html"><img
-                                    src="img/icon/smart-house.svg" width="20px" height="20"
-                                    className="mr-3"/>DOMÓTICA</a>
-                                <a className="dropdown-item text-white" href="iluminacion.html"><img
-                                    src="img/icon/trueno.svg" width="20px" height="20" className="mr-3"/>ILUMINACIÓN</a>
-                                <a className="dropdown-item text-white" href="cctv.html"><img src="img/icon/cctv.svg"
-                                                                                              width="20px" height="20"
-                                                                                              className="mr-3"/>CCTV E
-                                    INTRUSIÓN</a>
+                                <a className="dropdown-item text-white" href="redes.html">
+                                    <img src="img/icon/wifi.svg"  width="20" height="20" className="mr-3"/>INSTALACIÓN DE REDES</a>
+                                <a className="dropdown-item text-white" href="certificaciones.html">
+                                    <img src="img/icon/correcto.svg" width="20" height="20" className="mr-3"/>CERTIFICACIONES UTP</a>
+                                <a className="dropdown-item text-white" href="domotica.html">
+                                    <img src="img/icon/smart-house.svg" width="20" height="20" className="mr-3"/>DOMÓTICA</a>
+                                <a className="dropdown-item text-white" href="iluminacion.html">
+                                    <img src="img/icon/trueno.svg" width="20" height="20" className="mr-3"/>ILUMINACIÓN</a>
+                                <a className="dropdown-item text-white" href="cctv.html">
+                                    <img src="img/icon/cctv.svg"width="20" height="20"class Name="mr-3"/>CCTV E INTRUSIÓN</a>
                             </div>
                         </li>
                         <li><a href="proyectos.html">Proyectos</a></li>
@@ -89,8 +86,7 @@ class Header extends React.Component {
                         <hr className="border-white"/>
                     </div>
                     <div className="form-inline justify-content-end">
-                        <a href="mailto:administracion@solucionesvoltel.com" uk-icon="mail"
-                           className="border-white border rounded-circle ml-3 p-2"></a>
+                        <a href="mailto:administracion@solucionesvoltel.com" uk-icon="mail" className="border-white border rounded-circle ml-3 p-2"></a>
                         <a href="#" uk-icon="linkedin" className="border-white border rounded-circle p-2"></a>
                         <a href="#" uk-icon="facebook" className="border-white border  rounded-circle p-2"></a>
                         <a href="#" uk-icon="twitter" className="border-white border  rounded-circle p-2"></a>
