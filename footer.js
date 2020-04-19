@@ -31,7 +31,7 @@ class Footer extends React.Component {
                         <div className="row">
                             <div className="col">
                                 <div className="footer_logo text-center">
-                                    <a href="" onClick={this.handleClick}><img src="img/voltel.png" width="140" height="140" alt="logo voltel"/></a>
+                                    <a href="javascript:" onClick={this.handleClick}><img src="img/voltel.png" width="140" height="140" alt="logo voltel"/></a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ class Footer extends React.Component {
                         Copyright &copy;{(new Date().getFullYear())} - Soluciones Voltel. Todos los derechos reservados.
                     </div>
                 </div>
-                <a href="" className={this.state.visible?'fadeIn':'fadeOut'} onClick={this.handleClick} id="return-to-top"><i className="icon-chevron-up"></i></a>
+                <a href="javascript:" className={this.state.visible?'fadeIn':'fadeOut'} onClick={this.handleClick} id="return-to-top"><i className="icon-chevron-up"></i></a>
                 <a href="https://api.whatsapp.com/send?phone=34660621502" className="float d-noneW" target="_blank">
                     <i className="fa fa-whatsapp my-float"></i>
                 </a>
