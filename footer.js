@@ -13,7 +13,14 @@ class Footer extends React.Component {
     }
 
     handleClick() {
-        window.scroll({top: 0, left: 0, behavior: 'smooth' });
+        //back to top
+        $(document).ready(function () {
+            // scroll body to 0px on click
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 1200);
+                return false;
+            });
     }
 
     handleScroll() {
@@ -24,6 +31,7 @@ class Footer extends React.Component {
     }
 
     render() {
+
         return (
             <React.Fragment>
                 <div className="container">

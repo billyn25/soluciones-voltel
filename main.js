@@ -1,3 +1,4 @@
+let sliderImg = $('.uk-slideshow-items img');
 
 //ajustar imagen slider segun pantalla
 function setDimensions() {
@@ -6,7 +7,6 @@ function setDimensions() {
     let windowsWidth = window.innerWidth;
     let slider = $('.uk-slideshow-items');
     let overlay2 = $('.uk-overlay2');
-    let sliderImg = $('.uk-slideshow-items img');
 
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
