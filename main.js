@@ -1,49 +1,10 @@
-//nav lateral
-let mainIcon = $('.navbar-toggler');
-let menu = $('#mySidenav');
-
-function openNav() {
-    menu.addClass('is-active');
-    mainIcon.css('display', 'none');
-}
-
-function closeNav() {
-    menu.removeClass('is-active');
-    mainIcon.css('display', 'block');
-}
-
-$(document).mouseup(e => {
-    if (!menu.is(e.target) // if the target of the click isn't the container...
-        && menu.has(e.target).length === 0) // ... nor a descendant of the container
-    {
-        menu.removeClass('is-active');
-        mainIcon.css('display', 'block');
-    }
-});
-
-//evento para el header header nav, cuando haces scroll
-let imgLogo = document.getElementById("logo");
 let sliderImg = $('.uk-slideshow-items img');
 
 $(document).ready(function () {
     $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-
-        if (scroll > sliderImg.innerHeight() - 155) {
-            $("header nav").addClass('navColor');
-            imgLogo.src = "img/voltel_2.png";
-            imgLogo.style.width = '65px';
-            imgLogo.style.height = 'auto';
-            imgLogo.style.marginTop = '-7px';
-
+        if (window.pageYOffset > sliderImg.innerHeight() - 155) {
             $('#return-to-top').fadeIn(200);
         } else {
-            $("header nav").removeClass('navColor');
-            imgLogo.src = "img/voltel.png";
-            imgLogo.style.width = '110px';
-            imgLogo.style.height = 'auto';
-            imgLogo.style.marginTop = '0px';
-
             $('#return-to-top').fadeOut(200);
         }
     });
