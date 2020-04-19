@@ -10,7 +10,7 @@ class Header extends React.Component {
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="redes.html">
-                            <img src="../img/wifi.jpg" alt="voltel redes wifi o cable" className="uk-cover-container w-100 h-100"/>
+                            <img src="img/wifi.jpg" alt="voltel redes wifi o cable" className="uk-cover-container w-100 h-100"/>
                                 <div
                                     className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>INSTALACIÓN DE REDES</h5>
@@ -21,7 +21,7 @@ class Header extends React.Component {
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="certificaciones.html">
-                            <img src="../img/redes.jpg" alt="voltel certificaciones utp" className="uk-cover-container w-100 h-100"/>
+                            <img src="img/redes.jpg" alt="voltel certificaciones utp" className="uk-cover-container w-100 h-100"/>
                                 <div className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>CERTIFICACIONES UTP</h5>
                                 </div>
@@ -31,7 +31,7 @@ class Header extends React.Component {
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="domotica.html">
-                            <img src="../img/domotica_section.jpg" alt="voltel domótica" className="uk-cover-container w-100 h-100"/>
+                            <img src="img/domotica_section.jpg" alt="voltel domótica" className="uk-cover-container w-100 h-100"/>
                                 <div
                                     className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>DOMÓTICA</h5>
@@ -42,7 +42,7 @@ class Header extends React.Component {
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="electricidad.html">
-                            <img src="../img/electricidad.jpg" alt="voltel electricidad" className="uk-cover-container w-100 h-100"/>
+                            <img src="img/electricidad.jpg" alt="voltel electricidad" className="uk-cover-container w-100 h-100"/>
                                 <div
                                     className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>ELECTRICIDAD</h5>
@@ -52,8 +52,8 @@ class Header extends React.Component {
                 </div>
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
-                        <a href="../cctv.html">
-                            <img src="../img/cctv.jpg" alt="voltel cctv alarmas" className="uk-cover-container w-100 h-100"/>
+                        <a href="cctv.html">
+                            <img src="img/cctv.jpg" alt="voltel cctv alarmas" className="uk-cover-container w-100 h-100"/>
                                 <div
                                     className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>CCTV E INTRUSIÓN</h5>
