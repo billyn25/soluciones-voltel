@@ -75,7 +75,7 @@ class Header extends React.Component {
                                     <img src="img/icon/smart-house.svg" width="20" height="20" className="mr-3"/>DOMÓTICA</a>
                                 <a className="dropdown-item text-white" href="iluminacion.html">
                                     <img src="img/icon/trueno.svg" width="20" height="20" className="mr-3"/>ILUMINACIÓN</a>
-                                <a className="dropdown-item text-white" href="cctv.html">
+                                <a className="dropdown-item text-white" href="../cctv.html">
                                     <img src="img/icon/cctv.svg" width="20" height="20" className="mr-3"/>CCTV E INTRUSIÓN</a>
                             </div>
                         </li>
