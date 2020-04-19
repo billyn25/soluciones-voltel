@@ -1,4 +1,4 @@
-class Header extends React.Component {
+class Services extends React.Component {
     constructor(props) {
         super();
         this.state = {};
@@ -6,13 +6,13 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div className="uk-child-width-1-5@m uk-grid-small uk-grid-match" uk-grid>
+            <React.Fragment>
+            <div className="uk-child-width-1-5@m uk-grid-small uk-grid-match" uk-grid="true">
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="redes.html">
                             <img src="img/wifi.jpg" alt="voltel redes wifi o cable" className="uk-cover-container w-100 h-100"/>
-                                <div
-                                    className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
+                                <div className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>INSTALACIÓN DE REDES</h5>
                                 </div>
                         </a>
@@ -54,14 +54,14 @@ class Header extends React.Component {
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="cctv.html">
                             <img src="img/cctv.jpg" alt="voltel cctv alarmas" className="uk-cover-container w-100 h-100"/>
-                                <div
-                                    className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
+                                <div className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>CCTV E INTRUSIÓN</h5>
                                 </div>
                         </a>
                     </div>
                 </div>
             </div>
+            </React.Fragment>
         );
     }
 }
