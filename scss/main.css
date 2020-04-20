@@ -265,6 +265,9 @@ hr {
   height: 600px !important;
   object-position: 70% 35%;
 }
+.section-header .uk-overlay {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
 
 .section-form a:hover {
   color: #bd1225 !important;
