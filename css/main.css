@@ -281,7 +281,8 @@ hr {
 .section-footer {
   padding-bottom: 40px;
   margin-top: 140px;
-  border-top: 15px solid #bd1225; }
+  border-top: 15px solid #bd1225;
+  color: #6d6d6d; }
 
 .footer_content {
   padding-top: 40px;
@@ -296,7 +297,7 @@ hr {
   padding: 10px 10px 0 10px !important; }
 
 .copyright {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: #6d6d6d; }
 

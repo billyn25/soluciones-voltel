@@ -43,11 +43,23 @@ class Footer extends React.Component {
                                 </div>
                             </div>
                         </div>
+                        <div className="row mt-5">
+                            <div className="col">
+                                <ul className="list-group list-group-horizontal d-flex justify-content-center align-items-end">
+                                    <li className="text-center">
+                                        <img src="img/marcas/knx_logo.svg" alt="knx" width="60" height="60"/>
+                                        <p className="font-weight-bold mt-2">Integrador dómotico nº 69.767</p>
+                                    </li>
+                                    <li className="text-center">
+                                        <p className="ml-5 font-weight-bold">Electricistas autorizados nº 203.407</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                         <div className="row footer_row">
                             <div className="col-lg-4 footer_col">
                                 <div className="footer_item text-center">
-                                    <div
-                                        className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                    <div className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
                                         <div><img src="img/icon/phone.png" alt=""/></div>
                                     </div>
                                     <div className="footer_title">Móvil</div>

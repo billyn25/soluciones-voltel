@@ -321,6 +321,7 @@ hr {
   padding-bottom: 40px;
   margin-top: 140px;
   border-top: 15px solid #bd1225;
+  color: #6d6d6d;
 }
 
 .footer_content {
@@ -339,7 +340,7 @@ hr {
 }
 
 .copyright {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: #6d6d6d;
 }
