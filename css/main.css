@@ -217,6 +217,9 @@ hr {
 .section-miniservices .uk-card:hover img {
   opacity: 0.8; }
 
+.section-miniservices {
+  margin-top: 140px !important; }
+
 .section-miniservices .uk-card {
   border: 1px solid #2e2e2e; }
 
