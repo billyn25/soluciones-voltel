@@ -48,10 +48,10 @@ class Footer extends React.Component {
                                 <ul className="list-group list-group-horizontal d-flex justify-content-center align-items-end">
                                     <li className="text-center">
                                         <img src="img/marcas/knx_logo.svg" alt="knx" width="60" height="60"/>
-                                        <p className="font-weight-bold mt-2">Integrador dómotico nº 69.767</p>
+                                        <p className="text-white font-weight-bold mt-2">Integrador dómotico nº 69.767</p>
                                     </li>
                                     <li className="text-center">
-                                        <p className="ml-5 font-weight-bold">Electricistas autorizados nº 203.407</p>
+                                        <p className="text-white ml-5 font-weight-bold">Electricistas autorizados nº 203.407</p>
                                     </li>
                                 </ul>
                             </div>
