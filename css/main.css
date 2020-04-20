@@ -20,7 +20,7 @@ header .navbar {
   padding-left: 40px;
   padding-right: 40px; }
 
-header #logo {
+#logo {
   filter: drop-shadow(1px 1px 1px #555); }
 
 .logoBig {

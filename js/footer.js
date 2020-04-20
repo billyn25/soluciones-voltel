@@ -39,7 +39,7 @@ class Footer extends React.Component {
                         <div className="row">
                             <div className="col">
                                 <div className="footer_logo text-center">
-                                    <a href="javascript:" onClick={this.handleClick}><img src="img/icon/voltel.png" width="140" height="140" alt="logo voltel"/></a>
+                                    <a href="javascript:" onClick={this.handleClick}><img id="logo" src="img/icon/voltel.png" width="140" height="140" alt="logo voltel"/></a>
                                 </div>
                             </div>
                         </div>

@@ -60,6 +60,9 @@ class Header extends React.Component {
                             <a href="javascript:void(0)" id="buttonX" className="closebtn" onClick={this.closeNav}>&times;</a>
                         </li>
                         <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
                             <a href="nosotros.html">Sobre nosotros</a>
                         </li>
                         <li className="nav-item dropdown">
