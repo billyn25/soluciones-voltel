@@ -21,7 +21,7 @@ class Services extends React.Component {
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="certificaciones.html">
-                            <img src="img/redes.jpg" alt="voltel certificaciones utp" className="uk-cover-container w-100 h-100"/>
+                            <img src="img/red_seccion.png" alt="voltel certificaciones utp" className="uk-cover-container w-100 h-100"/>
                                 <div className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>CERTIFICACIONES UTP</h5>
                                 </div>
