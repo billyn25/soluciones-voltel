@@ -286,8 +286,8 @@ hr {
 .section-formP {
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .section-formP .btn:hover {
   background-color: #bd1225 !important;
@@ -499,8 +499,8 @@ hr {
   }
 
   .section-formP {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .section-three ul li img {
@@ -542,8 +542,8 @@ hr {
   }
 
   .section-formP {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .uk-card-body {

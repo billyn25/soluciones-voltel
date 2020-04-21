@@ -46,8 +46,8 @@ class Pform extends React.Component {
                     <div className="form-group">
                         <label htmlFor="inputEmail4">Servicio *</label>
                         <select className="custom-select mr-sm-2" id="inlineFormCustomSelect" name="servicio">
-                            <option selected>Instalación de Redes WIFI</option>
-                            <option value="1">Certificación cable UTP</option>
+                            <option selected>Instalación de Redes Cableadas y WIFI</option>
+                            <option value="1">Certificación de cable UTP</option>
                             <option value="2">Domótica</option>
                             <option value="3">Electricidad</option>
                             <option value="4">CCTV e Intrusión</option>
