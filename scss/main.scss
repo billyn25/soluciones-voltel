@@ -3,6 +3,7 @@ $secondary-color: rgb(46, 46, 46);
 $footer-color: #6d6d6d;
 $padding-section: 100px;
 $margin-top-section: 100px;
+$red-color:#bd1225;
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 * {
   box-sizing: border-box;
@@ -129,7 +130,7 @@ a:hover {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: -320px;
-  background-color: #bd1225;
+  background-color: $red-color;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 120px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -276,7 +277,7 @@ hr {
 }
 
 .section-miniservices{
-  margin-top: $margin-top-section;
+  margin-top: 130px;
   .uk-card{
     border: 1px solid $secondary-color;
   }
@@ -303,7 +304,7 @@ hr {
 
 .section-form {
   a:hover {
-    color: #bd1225 !important;
+    color: $red-color !important;
   }
 
   .cv {
@@ -360,7 +361,7 @@ hr {
 .section-footer {
   padding-bottom: 40px;
   margin-top: 140px;
-  border-top: 15px solid #bd1225;
+  border-top: 15px solid $red-color;
 }
 
 .footer_content {
@@ -574,7 +575,7 @@ hr {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-  .section-one, .section-two, .section-three, .section-form,.section-miniservices {
+  .section-one, .section-two, .section-three, .section-form,.section-miniservices,.section-formP {
     padding: 0 8px 0 8px;
   }
 

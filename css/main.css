@@ -219,7 +219,7 @@ hr {
   opacity: 0.8; }
 
 .section-miniservices {
-  margin-top: 100px; }
+  margin-top: 130px; }
 
 .section-miniservices .uk-card {
   border: 1px solid #2e2e2e; }
@@ -441,7 +441,7 @@ hr {
     bottom: 110px; } }
 
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-  .section-one, .section-two, .section-three, .section-form, .section-miniservices {
+  .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
     padding: 0 8px 0 8px; }
   .uk-card-body {
     padding: 33px 20px 33px 20px !important; }
