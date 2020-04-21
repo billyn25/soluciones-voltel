@@ -4,7 +4,7 @@
 }
 
 body {
-  color: #515151;
+  color: #5a5a5a;
   font-family: "Oxygen", sans-serif !important;
 }
 
@@ -97,11 +97,11 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.42) !important;
 }
 
-.section-one, .section-two, .section-three, .section-form, .section-miniservices {
+.section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
   margin-top: 100px;
   padding: 0 100px 0 100px;
 }
-.section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
+.section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
   font-size: 0.9rem;
 }
 
@@ -250,7 +250,7 @@ hr {
 }
 
 .section-miniservices {
-  margin-top: 140px !important;
+  margin-top: 100px;
 }
 .section-miniservices .uk-card {
   border: 1px solid #2e2e2e;
@@ -281,6 +281,13 @@ hr {
 }
 .section-form .cv div img {
   object-fit: cover;
+}
+
+.section-formP {
+  background-color: #5a5a5a;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .uk-card-title {
@@ -481,10 +488,10 @@ hr {
     padding-right: 6px !important;
   }
 
-  .section-one, .section-two, .section-three, .section-form, .section-miniservices {
+  .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
     padding: 0 20px 0 20px;
   }
-  .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
+  .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
     font-size: 1rem;
   }
 

@@ -1,4 +1,4 @@
-$primary-color: #515151;
+$primary-color: #5a5a5a;
 $secondary-color: rgb(46, 46, 46);
 $footer-color: #6d6d6d;
 $padding-section: 100px;
@@ -112,7 +112,7 @@ a:hover {
   }
 }
 
-.section-one, .section-two, .section-three, .section-form,.section-miniservices {
+.section-one, .section-two, .section-three, .section-form,.section-miniservices,.section-formP {
   margin-top: $margin-top-section;
   padding: 0 $padding-section 0 $padding-section;
 
@@ -276,7 +276,7 @@ hr {
 }
 
 .section-miniservices{
-  margin-top:140px !important;
+  margin-top: $margin-top-section;
   .uk-card{
     border: 1px solid $secondary-color;
   }
@@ -313,6 +313,13 @@ hr {
       object-fit: cover;
     }
   }
+}
+
+.section-formP{
+  background-color: $primary-color;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .uk-card-title {
@@ -516,7 +523,7 @@ hr {
     padding-right: 6px !important;
   }
 
-  .section-one, .section-two, .section-three, .section-form,.section-miniservices {
+  .section-one, .section-two, .section-three, .section-form,.section-miniservices,.section-formP {
     padding: 0 20px 0 20px;
 
     p {
