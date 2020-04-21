@@ -417,6 +417,9 @@ hr {
     padding: 0 20px 0 20px; }
   .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
     font-size: 1rem; }
+  .section-formP {
+    padding-top: 50px;
+    padding-bottom: 50px; }
   .section-three ul li img {
     width: 130px;
     height: 35px;

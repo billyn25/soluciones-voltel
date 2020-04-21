@@ -495,6 +495,11 @@ hr {
     font-size: 1rem;
   }
 
+  .section-formP {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .section-three ul li img {
     width: 130px;
     height: 35px;

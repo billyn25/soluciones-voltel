@@ -43,7 +43,7 @@ class Pform extends React.Component {
                             <option value="3">CCTV e Intrusión</option>
                         </select>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <div className="form-group">
                             <label htmlFor="exampleFormControlTextarea1">Texto *</label>
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="5" name="texto"
