@@ -443,6 +443,9 @@ hr {
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
     padding: 0 8px 0 8px; }
+  .section-formP {
+    padding-top: 50px;
+    padding-bottom: 50px; }
   .uk-card-body {
     padding: 33px 20px 33px 20px !important; }
   #mySidenav {

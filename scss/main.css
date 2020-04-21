@@ -538,6 +538,11 @@ hr {
     padding: 0 8px 0 8px;
   }
 
+  .section-formP {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .uk-card-body {
     padding: 33px 20px 33px 20px !important;
   }
