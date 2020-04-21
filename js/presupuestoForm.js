@@ -1,13 +1,28 @@
 class Pform extends React.Component {
     constructor(props) {
         super();
-        this.state = {};
+        this.state = {
+            check:''
+        };
+        this.checkEmail = this.checkEmail.bind(this);
     }
+
+    checkEmail(e) {
+        let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+        if (regexEmail.test(e)) {
+            this.setState({check: 'is-valid'})
+        } else {
+            this.setState({check: 'is-invalid'})
+        }
+    }
+
+
 
     render() {
         return (
             <React.Fragment>
-                <form action="#">
+                <form action="#" id="presuForm">
                     <h1 className="text-center text-white mb-5 ">Pide Presupuesto sin compromiso</h1>
                     <div className="form-row">
                         <div className="form-group col-md-6">
@@ -27,10 +42,7 @@ class Pform extends React.Component {
                         </div>
                         <div className="form-group col-md-6">
                             <label htmlFor="inputEmail4">Email *</label>
-                            <input type="email" className="form-control" id="inputEmail4" name="email" required/>
-                            <div id="emailerror" className="invalid-feedback">El email no tiene un formato
-                                correcto
-                            </div>
+                            <input type="email" className={`form-control ${this.state.check}`} id="inputEmail4" name="email" required onKeyUp={(e)=>this.checkEmail(e.target.value)}/>
                         </div>
                     </div>
                     <div className="form-group">
