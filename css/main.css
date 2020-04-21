@@ -219,7 +219,8 @@ hr {
   opacity: 0.8; }
 
 .section-miniservices {
-  margin-top: 130px; }
+  margin-top: 130px;
+  margin-bottom: 130px; }
 
 .section-miniservices .uk-card {
   border: 1px solid #2e2e2e; }
@@ -253,7 +254,7 @@ hr {
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: white;
   padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 80px; }
 
 .section-formP .btn:hover {
   background-color: #bd1225 !important; }
@@ -288,9 +289,12 @@ hr {
 /*********************************
     Footer
 *********************************/
+.mtop140 {
+  margin-top: 140px !important; }
+
 .section-footer {
   padding-bottom: 40px;
-  margin-top: 140px;
+  margin-top: 0px;
   border-top: 15px solid #bd1225; }
 
 .footer_content {
@@ -422,7 +426,7 @@ hr {
     font-size: 1rem; }
   .section-formP {
     padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-bottom: 80px; }
   .section-three ul li img {
     width: 130px;
     height: 35px;
@@ -448,7 +452,7 @@ hr {
     padding: 0 8px 0 8px; }
   .section-formP {
     padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-bottom: 80px; }
   .uk-card-body {
     padding: 33px 20px 33px 20px !important; }
   #mySidenav {

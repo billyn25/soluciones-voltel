@@ -278,6 +278,7 @@ hr {
 
 .section-miniservices{
   margin-top: 130px;
+  margin-bottom: 130px;
   .uk-card{
     border: 1px solid $secondary-color;
   }
@@ -320,7 +321,7 @@ hr {
   background-color: rgba(0, 0, 0, 0.7) !important;
   color: white;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   .btn:hover {
     background-color: $red-color !important;
   }
@@ -361,9 +362,12 @@ hr {
 /*********************************
     Footer
 *********************************/
+.mtop140{
+  margin-top: 140px !important;
+}
 .section-footer {
   padding-bottom: 40px;
-  margin-top: 140px;
+  margin-top: 0px;
   border-top: 15px solid $red-color;
 }
 
@@ -537,7 +541,7 @@ hr {
 
   .section-formP{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
 
   .section-three {
@@ -584,7 +588,7 @@ hr {
 
   .section-formP{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
 
   .uk-card-body {
