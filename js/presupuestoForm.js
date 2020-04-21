@@ -12,11 +12,11 @@ class Pform extends React.Component {
                     <div className="form-row">
                         <div className="form-group col-md-6">
                             <label htmlFor="inputEmail4">Nombre *</label>
-                            <input type="text" className="form-control" id="inputName" required/>
+                            <input type="text" className="form-control" id="inputName" name="nombre" required/>
                         </div>
                         <div className="form-group col-md-6">
                             <label htmlFor="inputPassword4">Empresa</label>
-                            <input type="text" className="form-control" id="inputEmpre"/>
+                            <input type="text" className="form-control" name="empresa" id="inputEmpre"/>
                         </div>
                     </div>
                     <div className="form-row">
