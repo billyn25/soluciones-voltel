@@ -240,6 +240,9 @@ hr {
 .section-header .uk-overlay {
   background-color: rgba(0, 0, 0, 0.6) !important; }
 
+.uk-label {
+  background-color: #e91529 !important; }
+
 .section-form a:hover {
   color: #bd1225 !important; }
 
