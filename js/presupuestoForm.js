@@ -60,8 +60,7 @@ class Pform extends React.Component {
                                     data-target=".bd-example-modal-xl">aviso legal y la política de privacidad</a> *</label>
                             </div>
                         </div>
-                        <div className="g-recaptcha mt-1 mb-3"
-    data-sitekey="6LdF2-gUAAAAAKGVLNBC6j6Iao3Xw-ganxVnEbmo"/>
+                        <div className="g-recaptcha mt-1 mb-3" data-sitekey="6LdF2-gUAAAAAKGVLNBC6j6Iao3Xw-ganxVnEbmo"/>
                         <button type="submit" className="btn btn-outline-warning">Enviar</button>
                         <br/><br/>
                         <p><small>De acuerdo a lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de

@@ -250,7 +250,7 @@ hr {
   object-fit: cover; }
 
 .section-formP {
-  background-color: #5a5a5a;
+  background-color: rgba(0, 0, 0, 0.6) !important;
   color: white;
   padding-top: 50px;
   padding-bottom: 50px; }
