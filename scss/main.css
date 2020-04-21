@@ -98,7 +98,7 @@ a:hover {
 }
 
 .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
-  margin-top: 100px;
+  margin-top: 110px;
   padding: 0 100px 0 100px;
 }
 .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
@@ -277,7 +277,7 @@ hr {
   color: #bd1225 !important;
 }
 .section-form .cv {
-  margin-top: 100px;
+  margin-top: 110px;
 }
 .section-form .cv div img {
   object-fit: cover;
