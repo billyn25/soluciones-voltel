@@ -168,7 +168,7 @@ a:hover {
 .dropdown-menu {
   padding: 0;
   top: 40px;
-  background-color: #2e2e2e;
+  background-color: rgba(0, 0, 0, 0.9) !important;
   width: auto !important;
 }
 .dropdown-menu .dropdown-item {
