@@ -55,13 +55,13 @@ class Pform extends React.Component {
                             <div className="custom-control custom-checkbox">
                                 <input type="checkbox" className="custom-control-input" id="customCheck1" required/>
                                 <label className="custom-control-label" htmlFor="customCheck1">Acepto el <a
-                                    className="text-warning font-weight-bold"
+                                    className="text-primary font-weight-bold"
                                     data-toggle="modal"
                                     data-target=".bd-example-modal-xl">aviso legal y la política de privacidad</a> *</label>
                             </div>
                         </div>
                         <div className="g-recaptcha mt-1 mb-3" data-sitekey="6LdF2-gUAAAAAKGVLNBC6j6Iao3Xw-ganxVnEbmo"/>
-                        <button type="submit" className="btn btn-outline-warning">Enviar</button>
+                        <button type="submit" className="btn btn-primary">Enviar</button>
                         <br/><br/>
                         <p><small>De acuerdo a lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de
                             Protección de Datos de Carácter Personal (LOPD), el cliente/usuario queda informado y presta su
