@@ -55,7 +55,7 @@ class Header extends React.Component {
                          alt="voltel logo" className={this.state.logo==='big'?'logoBig':'logoSmall'}/>
                 </a>
                 <div id="mySidenav" ref={node => this.node = node} className={`sidenav text-right ${this.state.active}`}>
-                    <ul className="pb-3">
+                    <ul>
                         <li>
                             <a href="javascript:void(0)" id="buttonX" className="closebtn" onClick={this.closeNav}>&times;</a>
                         </li>
@@ -83,7 +83,7 @@ class Header extends React.Component {
                         <li><a href="nosotros.html">Sobre nosotros</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
-                    <div className="w-100 d-flex justify-content-center pb-5">
+                    <div className="w-100 d-flex justify-content-center pb-5 pt-5">
                         <hr className="border-white"/>
                     </div>
                     <div className="form-inline justify-content-end">

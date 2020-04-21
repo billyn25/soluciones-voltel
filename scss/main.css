@@ -140,8 +140,15 @@ a:hover {
   transition: 0.3s;
   height: auto;
 }
+.sidenav ul {
+  margin: 0;
+}
 .sidenav ul li:first-child a {
   right: -5px;
+}
+.sidenav ul li:last-child a {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .sidenav a:hover {
   color: #292929;

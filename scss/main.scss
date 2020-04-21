@@ -149,8 +149,17 @@ a:hover {
     height: auto;
   }
 
+  ul{
+    margin: 0;
+  }
+
   ul li:first-child a {
     right: -5px;
+  }
+
+  ul li:last-child a {
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   /* When you mouse over the navigation links, change their color */
   a:hover {
