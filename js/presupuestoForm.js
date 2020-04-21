@@ -45,7 +45,7 @@ class Pform extends React.Component {
                     </div>
                     <div className="form-group">
                         <label htmlFor="inputEmail4">Servicio *</label>
-                        <select className="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <select className="custom-select mr-sm-2" id="inlineFormCustomSelect" name="servicio">
                             <option selected>Instalación de Redes WIFI</option>
                             <option value="1">Certificación cable UTP</option>
                             <option value="2">Domótica</option>
@@ -65,7 +65,7 @@ class Pform extends React.Component {
                             <div className="custom-control custom-checkbox">
                                 <input type="checkbox" className="custom-control-input" id="customCheck1" required/>
                                 <label className="custom-control-label" htmlFor="customCheck1">Acepto el <a
-                                    className="text-primary font-weight-bold"
+                                    className="text-warning font-weight-bold"
                                     data-toggle="modal"
                                     data-target=".bd-example-modal-xl">aviso legal y la política de privacidad</a> *</label>
                             </div>

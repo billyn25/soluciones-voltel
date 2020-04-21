@@ -250,10 +250,13 @@ hr {
   object-fit: cover; }
 
 .section-formP {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
   color: white;
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.section-formP .btn:hover {
+  background-color: #bd1225 !important; }
 
 .uk-card-title {
   margin-bottom: 7px; }

@@ -62,9 +62,6 @@ class Header extends React.Component {
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>
-                            <a href="nosotros.html">Sobre nosotros</a>
-                        </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios
@@ -83,6 +80,7 @@ class Header extends React.Component {
                             </div>
                         </li>
                         <li><a href="proyectos.html">Proyectos</a></li>
+                        <li><a href="nosotros.html">Sobre nosotros</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                     <div className="w-100 d-flex justify-content-center pb-5">
