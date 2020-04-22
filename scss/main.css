@@ -307,7 +307,7 @@ hr {
 }
 
 .divButtonPresupuesto {
-  margin-top: 70px !important;
+  margin-top: 75px !important;
 }
 .divButtonPresupuesto h1 {
   color: #bd1225;
@@ -323,7 +323,8 @@ hr {
 }
 
 .imgProduct {
-  margin-top: 70px;
+  margin-top: 75px;
+  margin-bottom: 0;
 }
 
 .uk-card-title {
