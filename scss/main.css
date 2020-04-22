@@ -322,6 +322,10 @@ hr {
   border: 2px solid #bd1225 !important;
 }
 
+.imgProduct {
+  margin-top: 70px;
+}
+
 .uk-card-title {
   margin-bottom: 7px;
 }
