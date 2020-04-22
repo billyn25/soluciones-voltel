@@ -179,7 +179,7 @@ a:hover {
 .dropdown-menu {
   padding: 0;
   top: 40px;
-  background-color: rgba(46, 46, 46, 0.91) !important;
+  background-color: rgba(24, 24, 24, 0.91) !important;
   width: auto !important;
 }
 .dropdown-menu .dropdown-item {
