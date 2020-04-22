@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   color: #5a5a5a;
   font-family: "Oxygen", sans-serif !important; }
@@ -266,6 +269,12 @@ hr {
 
 .section-formP .btn:hover {
   background-color: #bd1225 !important; }
+
+.divButtonPresupuesto {
+  margin-top: 70px !important; }
+
+.divButtonPresupuesto button:hover h1 {
+  color: white !important; }
 
 .uk-card-title {
   margin-bottom: 7px; }

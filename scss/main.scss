@@ -10,6 +10,7 @@ $red-color:#bd1225;
 }
 
 html {
+  scroll-behavior: smooth;
 
 }
 
@@ -334,6 +335,13 @@ hr {
   padding-bottom: 80px;
   .btn:hover {
     background-color: $red-color !important;
+  }
+}
+
+.divButtonPresupuesto {
+  margin-top:70px !important;
+  button:hover h1{
+    color:white !important;
   }
 }
 
