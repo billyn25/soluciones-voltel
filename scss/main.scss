@@ -357,6 +357,9 @@ hr {
 .imgProduct{
   margin-top: 75px;
   margin-bottom: 0;
+  img {
+    width: 75%;
+  }
 }
 
 .uk-card-title {
@@ -613,6 +616,12 @@ hr {
   }
   #return-to-top {
     bottom: 110px;
+  }
+
+  .imgProduct{
+    img {
+      width: 100%;
+    }
   }
 }
 

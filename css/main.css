@@ -289,6 +289,9 @@ hr {
   margin-top: 75px;
   margin-bottom: 0; }
 
+.imgProduct img {
+  width: 75%; }
+
 .uk-card-title {
   margin-bottom: 7px; }
 
@@ -478,7 +481,9 @@ hr {
   .section-footer .footer_col {
     padding-top: 25px; }
   #return-to-top {
-    bottom: 110px; } }
+    bottom: 110px; }
+  .imgProduct img {
+    width: 100%; } }
 
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {

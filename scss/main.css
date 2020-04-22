@@ -326,6 +326,9 @@ hr {
   margin-top: 75px;
   margin-bottom: 0;
 }
+.imgProduct img {
+  width: 75%;
+}
 
 .uk-card-title {
   margin-bottom: 7px;
@@ -576,6 +579,10 @@ hr {
 
   #return-to-top {
     bottom: 110px;
+  }
+
+  .imgProduct img {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {

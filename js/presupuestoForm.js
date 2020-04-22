@@ -26,7 +26,7 @@ class Pform extends React.Component {
         return (
             <React.Fragment>
                 <form action="#" id="presuForm" onClick={(e)=>this.handleClick(e)}>
-                    <h1 className="text-center text-white mb-5">Formulario de Presupuesto</h1>
+                    <h1 className="text-center text-white mb-5">Formulario para Presupuesto</h1>
                     <div className="form-row">
                         <div className="form-group col-md-6">
                             <label htmlFor="inputEmail4">Nombre *</label>
