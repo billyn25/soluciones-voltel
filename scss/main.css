@@ -309,8 +309,17 @@ hr {
 .divButtonPresupuesto {
   margin-top: 70px !important;
 }
+.divButtonPresupuesto h1 {
+  color: #bd1225;
+}
 .divButtonPresupuesto button:hover h1 {
   color: white !important;
+}
+.divButtonPresupuesto button:hover {
+  background-color: #bd1225;
+}
+.divButtonPresupuesto button {
+  border: 2px solid #bd1225 !important;
 }
 
 .uk-card-title {
@@ -343,6 +352,10 @@ hr {
 
 .d-noneW {
   display: none;
+}
+
+.uk-label {
+  background-color: #bd1225 !important;
 }
 
 /*********************************

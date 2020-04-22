@@ -340,8 +340,17 @@ hr {
 
 .divButtonPresupuesto {
   margin-top:70px !important;
+  h1 {
+    color: $red-color;
+  }
   button:hover h1{
     color:white !important;
+  }
+  button:hover {
+    background-color: $red-color
+  }
+  button {
+    border: 2px solid $red-color!important;
   }
 }
 
@@ -375,6 +384,9 @@ hr {
 
 .d-noneW {
   display: none;
+}
+.uk-label{
+  background-color: $red-color !important;
 }
 
 /*********************************
