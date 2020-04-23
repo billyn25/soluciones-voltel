@@ -461,7 +461,7 @@ hr {
   .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
     font-size: 1rem; }
   .section-formP {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 80px; }
   .section-three ul li img {
     width: 130px;
@@ -489,7 +489,7 @@ hr {
   .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
     padding: 0 10px 0 10px; }
   .section-formP {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 80px; }
   .uk-card-body {
     padding: 33px 20px 33px 20px !important; }
