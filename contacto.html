@@ -76,9 +76,15 @@
         <h1 class="text-dark">CONTACTO<span class="text-muted"> ¿HABLAMOS?</span></h1>
     </div>
     <form class="uk-card uk-card-default uk-card-body mt-5" method="POST" action="php/form_contact.php" id="form">
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Nombre *</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="nombre" required>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1">Nombre *</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" name="nombre" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label htmlFor="inputPassword4">Empresa</label>
+                <input type="text" class="form-control" name="empresa" id="inputEmpre"/>
+            </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
@@ -284,6 +290,9 @@
             </div>
         </div>
     </div>
+</section>
+<section class="section-miniservices" id="miniservices">
+    <script type="text/babel" src="js/serviciosBanner.js"></script>
 </section>
 <footer class="section-footer bg-primary mtop140" id="footer">
     <script type="text/babel" src="js/footer.js"></script>
