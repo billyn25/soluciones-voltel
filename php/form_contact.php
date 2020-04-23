@@ -3,10 +3,11 @@ $name = $_POST['nombre'];
 $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 $text = $_POST['texto'];
+$empresa = $_POST['empresa'];
 
 $to = $email;
 $subject = $name;
-$txt = $email . "\r\n" . $telefono . "\r\n" . $text;
+$txt = $email . "\r\n" . $telefono . "\r\n" . $empresa . "\r\n" . $text;
 $headers = "From: info@solucionesvoltel.com\r\n";
 $headers .= "Bcc: billyndavid@gmail.com\r\n";
 
