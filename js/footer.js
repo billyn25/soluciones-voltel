@@ -16,7 +16,8 @@ class Footer extends React.Component {
         //back to top
         $(document).ready(function () {
             // scroll body to 0px on click
-                $('body,html').animate({
+            let scroolHtml = $('body,html');
+            scroolHtml.animate({
                     scrollTop: 0
                 }, 1200);
                 return false;
