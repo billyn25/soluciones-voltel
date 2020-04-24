@@ -42,7 +42,7 @@ class Services extends React.Component {
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="electricidad.html">
-                            <img src="img/electricidad.jpg" alt="voltel electricidad" className="uk-cover-container w-100 h-100"/>
+                            <img src="img/electricidad.jpeg" alt="voltel electricidad" className="uk-cover-container w-100 h-100"/>
                                 <div
                                     className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
                                     <h5>ELECTRICIDAD</h5>
