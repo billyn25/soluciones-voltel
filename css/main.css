@@ -488,7 +488,7 @@ article a:not(.collapsed)::after {
     height: 450px !important; }
   .section-header .uk-slideshow-items img {
     height: 450px !important; }
-  .uk-card-body {
+  .uk-card-body, .uk-article {
     padding: 33px !important; }
   .d-noneW {
     display: initial; }
