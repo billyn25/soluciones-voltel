@@ -84,7 +84,7 @@ class Header extends React.Component {
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                     <div className="w-100 d-flex justify-content-center pb-5 pt-5">
-                        <hr className="border-white"/>
+                        <hr className="border-white uk-divider-icon"/>
                     </div>
                     <div className="form-inline justify-content-end">
                         <a href="mailto:administracion@solucionesvoltel.com" uk-icon="mail" className="border-white border rounded-circle ml-3 p-2"></a>
