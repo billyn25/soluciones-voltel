@@ -4,10 +4,15 @@ $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 $text = $_POST['texto'];
 $empresa = $_POST['empresa'];
+$servicio = $_POST['servicio'];
 
 $to = $email;
-$subject = $name;
-$txt = $email . "\r\n" . $telefono . "\r\n" . $empresa . "\r\n" . $text;
+$subject = "consulta de " . $name;
+if (empty($_POST["servicio"])) {
+    $txt = "\r\n email: " . $email . "\r\n teléfono: " . $telefono . "\r\n empresa: " . $empresa . "\r\n texto: " . $text;
+} else {
+    $txt = "\r\n email: " . $email . "\r\n teléfono: " . $telefono . "\r\n empresa: " . $empresa . "\r\n servicio: " . $servicio. "\r\n texto: " . $text;
+}
 $headers = "From: administracion@solucionesvoltel.com\r\n";
 $headers .= "Bcc: billyndavid@gmail.com\r\n";
 

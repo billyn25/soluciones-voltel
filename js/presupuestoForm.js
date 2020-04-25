@@ -3,10 +3,18 @@ class Pform extends React.Component {
         super();
         this.state = {
             check:'',
-            status:''
+            status:'',
         };
         this.checkEmail = this.checkEmail.bind(this);
         this.handleClick = this.handleClick.bind(this);
+    }
+
+    componentDidMount() {
+        const script = document.createElement("script");
+        script.src = "https://www.google.com/recaptcha/api.js";
+        script.async = true;
+
+        document.body.appendChild(script);
     }
 
     checkEmail(e) {
@@ -14,6 +22,7 @@ class Pform extends React.Component {
 
         if (regexEmail.test(e)) {
             this.setState({check: 'is-valid'})
+            console.log('true');
             this.setState({status: true})
         } else {
             this.setState({check: 'is-invalid'})
@@ -22,14 +31,38 @@ class Pform extends React.Component {
     }
 
     handleClick(e) {
-        console.log('envio');
+        console.log('enviando');
         e.preventDefault();
+        if (this.state.status){
+            const formData = new FormData(e.target);
+            $.ajax({
+                type: 'post',
+                data: formData,
+                contentType: false,
+                cache: false,
+                processData: false,
+                url: "php/form_contact.php",
+                success: function (data) {
+                    data = JSON.parse(data)
+                    if (data.result == true) {
+                        setTimeout(function () {
+                            swal("Bien!", "Tu mensaje ha sido enviado correctamente", "success");
+                        }, 200);
+                        $("#presuForm")[0].reset();
+                    } else {
+                        setTimeout(function () {
+                            swal("Algo va mal...", "Tu mensaje no ha podido ser enviado, revisa y prueba de nuevo", "error");
+                        }, 200);
+                    }
+                }
+            });
+        }
     }
 
     render() {
         return (
             <React.Fragment>
-                <form action="#" id="presuForm" onClick={(e)=>this.handleClick(e)}>
+                <form action="#" id="presuForm" onSubmit={(e)=>this.handleClick(e)}>
                     <h1 className="text-center text-white mb-5">Formulario para Presupuesto</h1>
                     <div className="form-row">
                         <div className="form-group col-md-6">
