@@ -10,11 +10,19 @@ class Pform extends React.Component {
     }
 
     componentDidMount() {
+        //CAPTCHA
         const script = document.createElement("script");
         script.src = "https://www.google.com/recaptcha/api.js";
         script.async = true;
 
         document.body.appendChild(script);
+
+        //ALERT
+        const scriptSweet = document.createElement("script");
+        scriptSweet.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+        scriptSweet.async = true;
+
+        document.body.appendChild(scriptSweet);
     }
 
     checkEmail(e) {
