@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 * {
   box-sizing: border-box;
@@ -226,10 +227,10 @@ hr {
 .uk-card {
   height: auto;
 }
-.uk-card .uk-card-body {
+.uk-card .uk-card-body, .uk-card .uk-article {
   padding: 40px;
 }
-.uk-card .uk-card-body h3 {
+.uk-card .uk-card-body h3, .uk-card .uk-article h3 {
   padding-bottom: 7px;
 }
 .uk-card img {
@@ -501,6 +502,24 @@ hr {
 .fadeIn {
   opacity: 1;
   transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+#module #collapseExample.collapse:not(.show) {
+  display: block;
+  height: 0rem;
+  overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+  height: 3rem;
+}
+
+article a.collapsed::after {
+  content: "+ Ver más";
+}
+
+article a:not(.collapsed)::after {
+  content: "- Ver menos";
 }
 
 /* css para movil o tablet*/
