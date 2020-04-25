@@ -4,6 +4,7 @@ class Pform extends React.Component {
         this.state = {
             check:'',
             status:'',
+            email:''
         };
         this.checkEmail = this.checkEmail.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -39,9 +40,9 @@ class Pform extends React.Component {
     }
 
     handleClick(e) {
-        console.log('enviando');
+        
         e.preventDefault();
-        if (this.state.status){
+        if (this.state.status && this.state.email!==''){
             const formData = new FormData(e.target);
             $.ajax({
                 type: 'post',
@@ -64,6 +65,8 @@ class Pform extends React.Component {
                     }
                 }
             });
+        } else {
+            this.setState({check: 'is-invalid'})
         }
     }
 
@@ -90,7 +93,7 @@ class Pform extends React.Component {
                         </div>
                         <div className="form-group col-md-6">
                             <label htmlFor="inputEmail4">Email *</label>
-                            <input type="email" className={`form-control ${this.state.check}`} id="inputEmail4" name="email" required onKeyUp={(e)=>this.checkEmail(e.target.value)}/>
+                            <input type="email" className={`form-control ${this.state.check}`} value={this.state.email} onChange={(e)=>this.setState({email: e.target.value})} id="inputEmail4" name="email" required onKeyUp={(e)=>this.checkEmail(e.target.value)}/>
                         </div>
                     </div>
                     <div className="form-group">
