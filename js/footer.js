@@ -19,7 +19,7 @@ class Footer extends React.Component {
             let scroolHtml = $('body,html');
             scroolHtml.animate({
                     scrollTop: 0
-                }, 600);
+                }, 1200);
                 return false;
             });
     }
@@ -74,8 +74,7 @@ class Footer extends React.Component {
                             </div>
                             <div className="col-lg-4 footer_col">
                                 <div className="footer_item text-center">
-                                    <div
-                                        className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                    <div className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
                                         <div><img src="img/icon/mail.png" alt="" /></div>
                                     </div>
                                     <div className="footer_title">e-mail</div>
@@ -89,7 +88,8 @@ class Footer extends React.Component {
                             </div>
                             <div className="col-lg-4 footer_col">
                                 <div className="footer_item text-center">
-                                    <div className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                    <div
+                                        className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
                                         <div><img src="img/icon/contact.png" alt=""/></div>
                                     </div>
                                     <div className="footer_title">localización</div>
