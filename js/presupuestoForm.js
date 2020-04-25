@@ -40,7 +40,7 @@ class Pform extends React.Component {
     }
 
     handleClick(e) {
-        
+
         e.preventDefault();
         if (this.state.status && this.state.email!==''){
             const formData = new FormData(e.target);
@@ -65,6 +65,8 @@ class Pform extends React.Component {
                     }
                 }
             });
+            this.setState({email: ''});
+            this.setState({check: ''});
         } else {
             this.setState({check: 'is-invalid'})
         }
@@ -100,11 +102,11 @@ class Pform extends React.Component {
                         <label htmlFor="inputEmail4">Servicio *</label>
                         <select className="custom-select mr-sm-2" id="inlineFormCustomSelect" name="servicio">
                             <option selected>Instalación de Redes Cableadas y WIFI</option>
-                            <option value="1">Certificación de cable UTP</option>
-                            <option value="2">Domótica</option>
-                            <option value="3">Electricidad</option>
-                            <option value="4">CCTV e Intrusión</option>
-                            <option value="5">Otro</option>
+                            <option value="Certificación de cable UTP">Certificación de cable UTP</option>
+                            <option value="Domótica">Domótica</option>
+                            <option value="Electricidad">Electricidad</option>
+                            <option value="CCTV e Intrusión">CCTV e Intrusión</option>
+                            <option value="Otro">Otro</option>
                         </select>
                     </div>
                     <div className="form-group">
