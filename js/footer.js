@@ -28,7 +28,6 @@ class Footer extends React.Component {
         window.pageYOffset > this.props.sizeSlider-155
             ?this.setState({visible: true})
             :this.setState({visible: false});
-
     }
 
     render() {
@@ -90,8 +89,7 @@ class Footer extends React.Component {
                             </div>
                             <div className="col-lg-4 footer_col">
                                 <div className="footer_item text-center">
-                                    <div
-                                        className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                    <div className="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
                                         <div><img src="img/icon/contact.png" alt=""/></div>
                                     </div>
                                     <div className="footer_title">localización</div>

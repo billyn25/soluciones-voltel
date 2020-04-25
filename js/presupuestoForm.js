@@ -62,8 +62,7 @@ class Pform extends React.Component {
                     <div className="form-group">
                         <div className="form-group">
                             <label htmlFor="exampleFormControlTextarea1">Texto *</label>
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="5" name="texto"
-                                      required>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="5" name="texto" required>
                             </textarea>
                         </div>
                         <div className="form-group">
