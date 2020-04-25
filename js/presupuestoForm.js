@@ -2,7 +2,8 @@ class Pform extends React.Component {
     constructor(props) {
         super();
         this.state = {
-            check:''
+            check:'',
+            status:''
         };
         this.checkEmail = this.checkEmail.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -13,13 +14,16 @@ class Pform extends React.Component {
 
         if (regexEmail.test(e)) {
             this.setState({check: 'is-valid'})
+            this.setState({status: true})
         } else {
             this.setState({check: 'is-invalid'})
+            this.setState({status: false})
         }
     }
 
     handleClick(e) {
-        console.log('envio')
+        console.log('envio');
+        e.preventDefault();
     }
 
     render() {
