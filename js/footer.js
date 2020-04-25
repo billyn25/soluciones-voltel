@@ -19,7 +19,7 @@ class Footer extends React.Component {
             let scroolHtml = $('body,html');
             scroolHtml.animate({
                     scrollTop: 0
-                }, 1200);
+                }, 600);
                 return false;
             });
     }
