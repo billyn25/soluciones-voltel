@@ -96,12 +96,19 @@ $(document).ready(function () {
 });
 
 //hash
-$("a[href*='#']:not([href='#'])").click(function(e) {
-    var hash = $(this).attr('href');
-    var offset = $(hash).offset();
-    if (offset) {
-        $('html, body').animate({ scrollTop: offset.top }, 'slow');
-        location.hash = hash;
-        return false;
+$(document).ready(function() {
+let myElement = document.getElementById('PresupuestoForm');
+let topPos = myElement.offsetTop +240;
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        console.log('movil')
+        topPos = myElement.offsetTop +1105;
     }
+
+if(window.location.hash) {
+
+    $('html, body').animate({
+        scrollTop: topPos
+    }, 1500, 'swing');
+}
 });
