@@ -88,9 +88,9 @@ class Header extends React.Component {
                     </div>
                     <div className="form-inline justify-content-end">
                         <a href="mailto:administracion@solucionesvoltel.com" uk-icon="mail" className="border-white border rounded-circle ml-3 p-2"></a>
-                        <a href="#" uk-icon="linkedin" className="border-white border rounded-circle p-2"></a>
-                        <a href="#" uk-icon="facebook" className="border-white border  rounded-circle p-2"></a>
-                        <a href="#" uk-icon="twitter" className="border-white border  rounded-circle p-2"></a>
+                        <a href="javascript:" uk-icon="linkedin" uk-tooltip="title: Aún no tenemos Linkedin; delay: 500" className="border-white border rounded-circle p-2"></a>
+                        <a href="javascript:" uk-icon="facebook" uk-tooltip="title: Aún no tenemos Facebook; delay: 500" className="border-white border  rounded-circle p-2"></a>
+                        <a href="javascript:" uk-icon="twitter" uk-tooltip="title: Aún no tenemos twitter; delay: 500" className="border-white border  rounded-circle p-2"></a>
                     </div>
                 </div>
                 <div id="main">
