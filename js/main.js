@@ -96,36 +96,12 @@ $(document).ready(function () {
 });
 
 //hash
-var assConfig = {
-    duration: 1200,
-    easing: 'swing',
-    complete: null
-};
-
-//Smooth scrolling with links
-$('a[href*=\\#]:not([href$=\\#])').on('click', function (event) {
-    var hash;
-    if (event.target.pathname !== window.location.pathname || event.target.hostname !== window.location.hostname || event.target.protocol !== window.location.protocol || event.target.search !== window.location.search) {
-        return;
-    }
-    event.preventDefault();
-    hash = '#' + $(event.target).attr("href").split("#")[1];
-    if (typeof $(hash).offset() !== 'undefined') {
-        $('html,body').animate({
-            scrollTop: $(this.hash).offset().top
-        }, assConfig.duration, assConfig.easing, assConfig.complete);
-    } else {
-        console.log("Note: Scrolling to the anchor ist not possible as the anchor does not exist.");
-    }
-});
-
-// Smooth scrolling when the document is loaded and ready
-$(document).ready(function () {
-    if (typeof $(location.hash).offset() !== 'undefined') {
-        $('html,body').animate({
-            scrollTop: $(location.hash).offset().top
-        }, assConfig.duration, assConfig.easing, assConfig.complete);
-    } else {
-        console.log("Note: Scrolling to the anchor ist not possible as the anchor does not exist.");
+$("a[href*='#']:not([href='#'])").click(function(e) {
+    var hash = $(this).attr('href');
+    var offset = $(hash).offset();
+    if (offset) {
+        $('html, body').animate({ scrollTop: offset.top }, 'slow');
+        location.hash = hash;
+        return false;
     }
 });
