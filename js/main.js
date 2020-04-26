@@ -96,10 +96,13 @@ $(document).ready(function () {
 });
 
 //hash button index presupuesto
-$(document).ready(function() {
+$(window).ready(function() {
 let myElement = document.getElementById('PresupuestoForm');
 let topPos = myElement.offsetTop +240;
 
+    $("#presuButton").click(function(){
+
+        console.log('aqui');
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         console.log('movil')
         topPos = myElement.offsetTop +1108;
@@ -108,4 +111,5 @@ let topPos = myElement.offsetTop +240;
     $('html, body').animate({
         scrollTop: topPos
     }, 1500, 'swing');
+    });
 });
