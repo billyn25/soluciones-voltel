@@ -95,23 +95,15 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            // Store hash
-            var hash = this.hash;
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function(){
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-            });
-        } // End if
-    });
-});
+jQuery ( document ).ready ( function($) {
+    var hash= window.location.hash
+    if ( hash == '' || hash == '#' || hash == undefined ) return false;
+    var target = $(hash);
+    headerHeight = 120;
+    target = target.length ? target : $('[name=' + hash.slice(1) +']');
+    if (target.length) {
+        $('html,body').stop().animate({
+            scrollTop: target.offset().top +240
+        },1550, 'swing');
+    }
+} );

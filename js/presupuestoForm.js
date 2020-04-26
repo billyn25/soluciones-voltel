@@ -149,7 +149,7 @@ class Pform extends React.Component {
                             personales suministrados no serán cedidos ni comunicados a terceros.</small></p>
                     </div>
                 </form>
-                <div className="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+                <div className="modal fade bd-example-modal-xl" tabIndex={-1} role="dialog" aria-labelledby="myExtraLargeModalLabel"
                      aria-hidden="true">
                     <div className="modal-dialog modal-xl" role="document">
                         <div className="modal-content">
