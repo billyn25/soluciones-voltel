@@ -583,7 +583,7 @@ article a:not(.collapsed)::after {
   }
 
   .uk-card-body, .uk-article {
-    padding: 30px !important;
+    padding: 22px !important;
   }
 
   .d-noneW {
