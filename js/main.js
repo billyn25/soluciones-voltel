@@ -102,7 +102,7 @@ let topPos = myElement.offsetTop +240;
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         console.log('movil')
-        topPos = myElement.offsetTop +1106;
+        topPos = myElement.offsetTop +1108;
     }
 if(window.location.hash) {
 
