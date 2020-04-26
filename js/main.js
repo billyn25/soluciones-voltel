@@ -99,7 +99,9 @@ $(document).ready(function () {
 if(window.location.hash) {
     var hash = window.location.hash;
 
-    $('html, body').animate({
-        scrollTop: $(hash).offset().top
-    }, 1500, 'swing');
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 1000, 'swing', function(){
+            history.replaceState({}, "", hash);
+        });
 }
