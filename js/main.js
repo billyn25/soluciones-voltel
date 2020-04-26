@@ -95,19 +95,17 @@ $(document).ready(function () {
     });
 });
 
-//hash button index presupuesto
-$(window).ready(function() {
-let myElement = document.getElementById('PresupuestoForm');
-let topPos = myElement.offsetTop +240;
+//hash
+$("a[href*='#']:not([href='#'])").click(function(e) {
+    e.preventDefault();
+    var hash = this.hash;
+    var section = $(hash);
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        console.log('movil')
-        topPos = myElement.offsetTop +1108;
+    if (hash) {
+        $('html, body').animate({
+            scrollTop: section.offset().top
+        }, 1000, 'swing', function(){
+            history.replaceState({}, "", hash);
+        });
     }
-if(window.location.hash) {
-
-    $('html, body').animate({
-        scrollTop: topPos
-    }, 1500, 'swing');
-}
 });
