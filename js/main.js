@@ -95,16 +95,15 @@ $(document).ready(function () {
     });
 });
 
-//hash
+//hash button index presupuesto
 $(document).ready(function() {
 let myElement = document.getElementById('PresupuestoForm');
 let topPos = myElement.offsetTop +240;
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         console.log('movil')
-        topPos = myElement.offsetTop +1105;
+        topPos = myElement.offsetTop +1110;
     }
-
 if(window.location.hash) {
 
     $('html, body').animate({
