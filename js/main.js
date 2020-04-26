@@ -96,7 +96,7 @@ $(document).ready(function () {
 });
 
 //hash button index presupuesto
-$(window).ready(function() {
+$(document).ready(function() {
 let myElement = document.getElementById('PresupuestoForm');
 let topPos = myElement.offsetTop +240;
 
