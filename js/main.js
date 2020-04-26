@@ -96,12 +96,36 @@ $(document).ready(function () {
 });
 
 //hash
-if(window.location.hash) {
-    var hash = window.location.hash;
+var assConfig = {
+    duration: 1200,
+    easing: 'swing',
+    complete: null
+};
 
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 1000, 'swing', function(){
-            history.replaceState({}, "", hash);
-        });
-}
+//Smooth scrolling with links
+$('a[href*=\\#]:not([href$=\\#])').on('click', function (event) {
+    var hash;
+    if (event.target.pathname !== window.location.pathname || event.target.hostname !== window.location.hostname || event.target.protocol !== window.location.protocol || event.target.search !== window.location.search) {
+        return;
+    }
+    event.preventDefault();
+    hash = '#' + $(event.target).attr("href").split("#")[1];
+    if (typeof $(hash).offset() !== 'undefined') {
+        $('html,body').animate({
+            scrollTop: $(this.hash).offset().top
+        }, assConfig.duration, assConfig.easing, assConfig.complete);
+    } else {
+        console.log("Note: Scrolling to the anchor ist not possible as the anchor does not exist.");
+    }
+});
+
+// Smooth scrolling when the document is loaded and ready
+$(document).ready(function () {
+    if (typeof $(location.hash).offset() !== 'undefined') {
+        $('html,body').animate({
+            scrollTop: $(location.hash).offset().top
+        }, assConfig.duration, assConfig.easing, assConfig.complete);
+    } else {
+        console.log("Note: Scrolling to the anchor ist not possible as the anchor does not exist.");
+    }
+});
