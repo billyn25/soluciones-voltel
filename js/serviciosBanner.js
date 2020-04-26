@@ -7,7 +7,7 @@ class Services extends React.Component {
     render() {
         return (
             <React.Fragment>
-            <div className="uk-child-width-1-5@m uk-grid-small uk-grid-match" uk-grid="true">
+            <div className="uk-child-width-1-5@m uk-grid-small uk-grid-match" uk-grid="true" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 200; repeat: false">
                 <div>
                     <div className="uk-card uk-card-secondary uk-card-hover">
                         <a href="redes.html">
