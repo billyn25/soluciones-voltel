@@ -95,15 +95,11 @@ $(document).ready(function () {
     });
 });
 
-jQuery ( document ).ready ( function($) {
-    var hash= window.location.hash
-    if ( hash == '' || hash == '#' || hash == undefined ) return false;
-    var target = $(hash);
-    headerHeight = 120;
-    target = target.length ? target : $('[name=' + hash.slice(1) +']');
-    if (target.length) {
-        $('html,body').stop().animate({
-            scrollTop: target.offset().top +240
-        },1550, 'swing');
-    }
-} );
+//hash
+if(window.location.hash) {
+    var hash = window.location.hash;
+
+    $('html, body').animate({
+        scrollTop: $(hash).offset().top
+    }, 1500, 'swing');
+}
