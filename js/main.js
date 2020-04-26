@@ -104,10 +104,8 @@ let topPos = myElement.offsetTop +240;
         console.log('movil')
         topPos = myElement.offsetTop +1108;
     }
-if(window.location.hash) {
 
     $('html, body').animate({
         scrollTop: topPos
     }, 1500, 'swing');
-}
 });
