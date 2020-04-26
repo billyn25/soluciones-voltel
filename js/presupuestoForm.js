@@ -4,9 +4,12 @@ class Pform extends React.Component {
         this.state = {
             check:'',
             status:'',
-            email:''
+            email:'',
+            checkPhone:'',
+            statusPhone:'',
         };
         this.checkEmail = this.checkEmail.bind(this);
+        this.checkPhone = this.checkPhone.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -31,7 +34,6 @@ class Pform extends React.Component {
 
         if (regexEmail.test(e)) {
             this.setState({check: 'is-valid'})
-            console.log('true');
             this.setState({status: true})
         } else {
             this.setState({check: 'is-invalid'})
@@ -39,10 +41,21 @@ class Pform extends React.Component {
         }
     }
 
-    handleClick(e) {
+    checkPhone(e) {
+        let regexEmail = /(\+34|34)?[1-9]{1}[0-9]{8}/;
 
+        if (regexEmail.test(e)) {
+            this.setState({checkPhone: 'is-valid'})
+            this.setState({statusPhone: true})
+        } else {
+            this.setState({checkPhone: 'is-invalid'})
+            this.setState({statusPhone: false})
+        }
+    }
+
+    handleClick(e) {
         e.preventDefault();
-        if (this.state.status && this.state.email!==''){
+        if (this.state.statusPhone && this.state.status && this.state.email!==''){
             const formData = new FormData(e.target);
             $.ajax({
                 type: 'post',
@@ -67,8 +80,8 @@ class Pform extends React.Component {
             });
             this.setState({email: ''});
             this.setState({check: ''});
-        } else {
-            this.setState({check: 'is-invalid'})
+            this.setState({checkPhone: ''});
+            this.setState({status: ''});
         }
     }
 
@@ -90,8 +103,7 @@ class Pform extends React.Component {
                     <div className="form-row">
                         <div className="form-group col-md-6">
                             <label htmlFor="inputPassword4">Teléfono *</label>
-                            <input type="tel" className="form-control" id="inputPassword4" name="telefono"
-                                   pattern="(\+34|34)?[1-9]{1}[0-9]{8}" required/>
+                            <input type="tel" className={`form-control ${this.state.checkPhone}`} id="inputPassword4" name="telefono" onKeyUp={(e)=>this.checkPhone(e.target.value)} required/>
                         </div>
                         <div className="form-group col-md-6">
                             <label htmlFor="inputEmail4">Email *</label>
@@ -101,11 +113,11 @@ class Pform extends React.Component {
                     <div className="form-group">
                         <label htmlFor="inputEmail4">Servicio *</label>
                         <select className="custom-select mr-sm-2" id="inlineFormCustomSelect" name="servicio">
-                            <option selected>Instalación de Redes Cableadas y WIFI</option>
-                            <option value="Certificación de cable UTP">Certificación de cable UTP</option>
-                            <option value="Domótica">Domótica</option>
+                            <option selected value="Instalacion de Redes Cableadas y WIFI">Instalación de Redes Cableadas y WIFI</option>
+                            <option value="Certificacion de cable UTP">Certificación de cable UTP</option>
+                            <option value="Domotica">Domótica</option>
                             <option value="Electricidad">Electricidad</option>
-                            <option value="CCTV e Intrusión">CCTV e Intrusión</option>
+                            <option value="CCTV e Intrusion">CCTV e Intrusión</option>
                             <option value="Otro">Otro</option>
                         </select>
                     </div>

@@ -1,17 +1,17 @@
 <?php
-$name = $_POST['nombre'];
-$email = $_POST['email'];
-$telefono = $_POST['telefono'];
-$text = $_POST['texto'];
-$empresa = $_POST['empresa'];
-$servicio = $_POST['servicio'];
+$name = trim($_POST['nombre']);
+$email = trim($_POST['email']);
+$telefono = trim($_POST['telefono']);
+$text = trim($_POST['texto']);
+$empresa = trim($_POST['empresa']);
+$servicio = trim($_POST['servicio']);
 
 $to = $email;
 $subject = "consulta de " . $name;
 if (empty($_POST["servicio"])) {
-    $txt = "\r\n email: " . $email . "\r\n teléfono: " . $telefono . "\r\n empresa: " . $empresa . "\r\n texto: " . $text;
+    $txt = "\r\n email: " . $email . "\r\n telefono: " . $telefono . "\r\n empresa: " . $empresa . "\r\n texto: " . $text;
 } else {
-    $txt = "\r\n email: " . $email . "\r\n teléfono: " . $telefono . "\r\n empresa: " . $empresa . "\r\n servicio: " . $servicio. "\r\n texto: " . $text;
+    $txt = "\r\n email: " . $email . "\r\n telefono: " . $telefono . "\r\n empresa: " . $empresa . "\r\n servicio: " . $servicio. "\r\n texto: " . $text;
 }
 $headers = "From: administracion@solucionesvoltel.com\r\n";
 $headers .= "Bcc: billyndavid@gmail.com\r\n";
