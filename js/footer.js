@@ -107,7 +107,7 @@ class Footer extends React.Component {
                 <div className="footer_bar d-flex justify-content-center text-center">
                     <div className="copyright">
                         <p>Copyright &copy;{(new Date().getFullYear())} - Soluciones Voltel - Todos los derechos reservados.</p>
-                        <p><a className="text-light" data-toggle="modal" data-target=".bd-example-modal-xl1">Aviso legal y la política de privacidad</a></p>
+                        <p><a className="text-light small font-weight-bold" data-toggle="modal" data-target=".bd-example-modal-xl1">Aviso legal y la política de privacidad</a></p>
                     </div>
                 </div>
                 <a href="javascript:" className={this.state.visible?'fadeIn':'fadeOut'} onClick={this.handleClick} id="return-to-top"><i className="icon-chevron-up"></i></a>
