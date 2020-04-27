@@ -123,7 +123,7 @@ class Footer extends React.Component {
                         <div className="modal-content">
                             <div className="modal-header">
                                 <h5 className="modal-title" id="exampleModalLabel">Aviso Legal</h5>
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Cerrar">
+                                <button type="button" class="close border border-primary pl-2 pr-2 pt-1 pb-1" data-dismiss="modal" aria-label="Cerrar">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>

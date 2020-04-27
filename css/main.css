@@ -287,10 +287,10 @@ hr {
 .divButtonPresupuesto button {
   border: 3px solid #bd1225 !important; }
 
-#PresupuestoForm h1 {
+.PresupuestoFormIndex h1 {
   color: #2e2e2e !important; }
 
-#PresupuestoForm .btn:hover {
+.PresupuestoFormIndex .btn:hover {
   background-color: #bd1225 !important; }
 
 .imgProduct {
