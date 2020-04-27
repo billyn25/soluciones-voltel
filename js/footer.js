@@ -117,7 +117,6 @@ class Footer extends React.Component {
                 <a href="tel:+34660621502" className="float2 d-noneW">
                     <i className="fa fa-phone my-float"></i>
                 </a>
-                <!-- Modal-->
                 <div className="modal fade bd-example-modal-xl1" tabIndex={-1} role="dialog" aria-labelledby="myExtraLargeModalLabel"
                      aria-hidden="true">
                     <div className="modal-dialog modal-xl" role="document">
