@@ -82,6 +82,7 @@ class Pform extends React.Component {
             this.setState({check: ''});
             this.setState({checkPhone: ''});
             this.setState({status: ''});
+            this.setState({statusPhone: ''});
         }
     }
 
@@ -130,8 +131,8 @@ class Pform extends React.Component {
                         <div className="form-group">
                             <div className="custom-control mt-4 mb-4 custom-checkbox">
                                 <input type="checkbox" className="custom-control-input" id="customCheck1" required/>
-                                <label className="custom-control-label font-weight-bold" htmlFor="customCheck1">
-                                    <a href="aviso.html" target="_blank">Acepto el aviso legal y la política de privacidad *</a></label>
+                                <label className="custom-control-label" htmlFor="customCheck1">
+                                    Acepto el <a href="aviso.html" target="_blank" className="font-weight-bold">aviso legal y la política de privacidad</a> *</label>
                             </div>
                         </div>
                         <div className="g-recaptcha mt-1 mb-4" data-sitekey="6LdF2-gUAAAAAKGVLNBC6j6Iao3Xw-ganxVnEbmo"/>
