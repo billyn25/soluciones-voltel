@@ -135,9 +135,9 @@ class Footer extends React.Component {
                 <a href="tel:+34660621502" className="float2 d-noneW">
                     <i className="fa fa-phone my-float"></i>
                 </a>
-                <div id="div-cookies" className="fixed-bottom bg-dark p-3 text-white">
-                    Necesitamos usar cookies para que funcione todo correctamente, si permanece aquí acepta su uso, más información en <a hrefLang="es" className="text-muted font-weight-bold" href="aviso.html" target="_blank">Aviso Legal y Política de Privacidad</a>.
-                    <button type="button" className="btn btn-sm btn-danger m-1" onClick={acceptCookies}>
+                    <div id="div-cookies" className="alert fixed-bottom alert-dismissible alert-warning p-3 mb-0 alert-heading">
+                    Necesitamos usar cookies para que funcione todo correctamente, si permanece aquí acepta su uso, más información en <a hrefLang="es" className="font-weight-bold alert-link" href="aviso.html" target="_blank">Aviso Legal y Política de Privacidad</a>.
+                    <button type="button" className="btn btn-sm alert-primary m-1" onClick={acceptCookies}>
                         Acepto el uso de cookies
                     </button>
                 </div>
