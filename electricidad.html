@@ -90,13 +90,32 @@
     <div class="w-100 text-center imgProduct" uk-scrollspy="cls: uk-animation-fade; target: .imgPromo; delay: 200; repeat: false">
         <img class="uk-cover-container imgPromo" src="img/servicios/luz_2.jpg" alt="mecanismos ls990 jung">
     </div>
+</section>
+<section class="section-two">
     <div class="w-100 d-flex justify-content-center align-items-center mt-5 divButtonPresupuesto flex-column">
-        <h5 class="text-center text-primary mb-3">Cuéntanos lo que necesitas</h5>
-        <a href="#PresupuestoForm">
-            <button class="btn">
-                <h1>PIDE PRESUPUESTO SIN COMPROMISO <i class="fa fa-arrow-circle-down"></i></h1>
-            </button>
-        </a>
+        <h3 class="text-center text-primary mb-5">¿Estás interesado en alguno de nuestros productos?</h3>
+        <button class="btn p-4" data-toggle="modal" data-target=".bd-example-modal-xl">
+            <h1>PIDE PRESUPUESTO SIN COMPROMISO <i class="fa fa-hand-o-up"></i></h1>
+        </button>
+    </div>
+    <!-- Modal Form -->
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content p-2">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Formulario para presupuesto</h2>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                        <span class="font-weight-bold" aria-hidden="true">X</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <section class="PresupuestoFormIndex" id="PresupuestoForm">
+                        <script type="text/babel" src="js/presupuestoForm.js"></script>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="section-miniservices" id="miniservices">

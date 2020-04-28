@@ -114,7 +114,7 @@ a:hover {
   }
 }
 
-.section-one, .section-two, .section-three, .section-form,.section-miniservices,.section-formP {
+.section-one, .section-two, .section-three, .section-form,.section-miniservices {
   margin-top: $margin-top-section;
   padding: 0 $padding-section 0 $padding-section;
 
@@ -327,17 +327,6 @@ hr {
   }
 }
 
-.section-formP{
-  background-color: rgba(0, 0, 0, 0.7) !important;
-  color: white;
-  margin-top: 0;
-  padding-top: 105px;
-  padding-bottom: 80px;
-  .btn:hover {
-    background-color: $red-color !important;
-  }
-}
-
 .divButtonPresupuesto {
   margin-top:75px !important;
   h1 {
@@ -353,12 +342,10 @@ hr {
     border: 3px solid $red-color!important;
   }
 }
-.PresupuestoFormIndex {
-  h1 {
-    color: $secondary-color !important;
-  }
-  .btn:hover {
-    background-color: $red-color !important;
+
+.modal {
+  .btn-primary:hover{
+    background-color: $primary-color;
   }
 }
 
@@ -595,17 +582,11 @@ article a:not(.collapsed)::after {
     padding-right: 6px !important;
   }
 
-  .section-one, .section-two, .section-three, .section-form,.section-miniservices,.section-formP {
+  .section-one, .section-two, .section-three, .section-form,.section-miniservices{
     padding: 0 20px 0 20px;
-
     p {
       font-size: 1.0rem;
     }
-  }
-
-  .section-formP{
-    padding-top: 105px;
-    padding-bottom: 80px;
   }
 
   .section-three {
@@ -652,13 +633,8 @@ article a:not(.collapsed)::after {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-  .section-one, .section-two, .section-three, .section-form,.section-miniservices,.section-formP {
+  .section-one, .section-two, .section-three, .section-form,.section-miniservices {
     padding: 0 10px 0 10px;
-  }
-
-  .section-formP{
-    padding-top: 105px;
-    padding-bottom: 80px;
   }
 
   .uk-card-body {

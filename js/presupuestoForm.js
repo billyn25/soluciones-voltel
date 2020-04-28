@@ -89,7 +89,6 @@ class Pform extends React.Component {
         return (
             <React.Fragment>
                 <form action="#" id="presuForm" onSubmit={(e)=>this.handleClick(e)}>
-                    <h1 className="text-center text-white mb-5">Formulario para Presupuesto</h1>
                     <div className="form-row">
                         <div className="form-group col-md-6">
                             <label htmlFor="inputEmail4">Nombre *</label>
@@ -110,6 +109,7 @@ class Pform extends React.Component {
                             <input type="email" className={`form-control ${this.state.check}`} value={this.state.email} onChange={(e)=>this.setState({email: e.target.value})} id="inputEmail4" name="email" required onKeyUp={(e)=>this.checkEmail(e.target.value)}/>
                         </div>
                     </div>
+                    {!location.pathname.includes('contacto')===true && (
                     <div className="form-group">
                         <label htmlFor="inputEmail4">Servicio *</label>
                         <select className="custom-select mr-sm-2" id="inlineFormCustomSelect" name="servicio">
@@ -120,7 +120,7 @@ class Pform extends React.Component {
                             <option value="CCTV e Intrusion">CCTV e Intrusión</option>
                             <option value="Otro">Otro</option>
                         </select>
-                    </div>
+                    </div>)}
                     <div className="form-group">
                         <div className="form-group">
                             <label htmlFor="exampleFormControlTextarea1">Texto *</label>
@@ -128,13 +128,13 @@ class Pform extends React.Component {
                             </textarea>
                         </div>
                         <div className="form-group">
-                            <div className="custom-control custom-checkbox">
+                            <div className="custom-control mt-4 mb-4 custom-checkbox">
                                 <input type="checkbox" className="custom-control-input" id="customCheck1" required/>
-                                <label className="custom-control-label" htmlFor="customCheck1">Acepto el aviso legal y la política de privacidad *</label>
+                                <label className="custom-control-label font-weight-bold" htmlFor="customCheck1">Acepto el aviso legal y la política de privacidad *</label>
                             </div>
                         </div>
-                        <div className="g-recaptcha mt-1 mb-3" data-sitekey="6LdF2-gUAAAAAKGVLNBC6j6Iao3Xw-ganxVnEbmo"/>
-                        <button type="submit" className="btn btn-primary">Enviar</button>
+                        <div className="g-recaptcha mt-1 mb-4" data-sitekey="6LdF2-gUAAAAAKGVLNBC6j6Iao3Xw-ganxVnEbmo"/>
+                        <button type="submit" className="btn btn-outline-primary">Enviar</button>
                         <br/><br/>
                         <p><small>De acuerdo a lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de
                             Protección de Datos de Carácter Personal (LOPD), el cliente/usuario queda informado y presta su

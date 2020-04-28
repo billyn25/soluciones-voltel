@@ -107,7 +107,7 @@ class Footer extends React.Component {
                 <div className="footer_bar d-flex justify-content-center text-center">
                     <div className="copyright">
                         <p>Copyright &copy;{(new Date().getFullYear())} - Soluciones Voltel - Todos los derechos reservados.</p>
-                        <p><a className="text-light small font-weight-bold" data-toggle="modal" data-target=".bd-example-modal-xl1">Aviso legal y la política de privacidad</a></p>
+                        <p><a className="text-light font-weight-bold" data-toggle="modal" data-target=".bd-example-modal-xl1">Aviso legal y Política de privacidad</a></p>
                     </div>
                 </div>
                 <a href="javascript:" className={this.state.visible?'fadeIn':'fadeOut'} onClick={this.handleClick} id="return-to-top"><i className="icon-chevron-up"></i></a>
@@ -120,11 +120,11 @@ class Footer extends React.Component {
                 <div className="modal fade bd-example-modal-xl1" tabIndex={-1} role="dialog" aria-labelledby="myExtraLargeModalLabel"
                      aria-hidden="true">
                     <div className="modal-dialog modal-xl" role="document">
-                        <div className="modal-content p-3">
+                        <div className="modal-content p-2">
                             <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel">Aviso Legal</h5>
-                                <button type="button" class="close border border-primary pl-2 pr-2 pt-1 pb-1" data-dismiss="modal" aria-label="Cerrar">
-                                    <span aria-hidden="true">&times;</span>
+                                <h2 className="modal-title" id="exampleModalLabel">Aviso legal y Política de privacidad</h2>
+                                <button type="button" className="btn btn-primary" data-dismiss="modal">
+                                    <span className="font-weight-bold" aria-hidden="true">X</span>
                                 </button>
                             </div>
                             <div className="modal-body text-secondary">
@@ -269,9 +269,8 @@ class Footer extends React.Component {
     }
 }
 
-let sliderImg = $('.uk-slideshow-items img');
 
 ReactDOM.render(
-    <Footer sizeSlider={sliderImg.innerHeight()}/>,
+    <Footer/>,
     document.getElementById("footer")
 );

@@ -86,11 +86,11 @@ a:hover {
   height: 60px;
   background-color: rgba(0, 0, 0, 0.42) !important; }
 
-.section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
+.section-one, .section-two, .section-three, .section-form, .section-miniservices {
   margin-top: 110px;
   padding: 0 100px 0 100px; }
 
-.section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
+.section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
   font-size: 0.9rem; }
 
 /* The side navigation menu */
@@ -262,16 +262,6 @@ hr {
 .section-form .cv div img {
   object-fit: cover; }
 
-.section-formP {
-  background-color: rgba(0, 0, 0, 0.7) !important;
-  color: white;
-  margin-top: 0;
-  padding-top: 105px;
-  padding-bottom: 80px; }
-
-.section-formP .btn:hover {
-  background-color: #bd1225 !important; }
-
 .divButtonPresupuesto {
   margin-top: 75px !important; }
 
@@ -287,11 +277,8 @@ hr {
 .divButtonPresupuesto button {
   border: 3px solid #bd1225 !important; }
 
-.PresupuestoFormIndex h1 {
-  color: #2e2e2e !important; }
-
-.PresupuestoFormIndex .btn:hover {
-  background-color: #bd1225 !important; }
+.modal .btn-primary:hover {
+  background-color: #5a5a5a; }
 
 .imgProduct {
   margin-top: 90px;
@@ -478,13 +465,10 @@ article a:not(.collapsed)::after {
     padding: 0px 36px 0 0; }
   .nav-link {
     padding-right: 6px !important; }
-  .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
+  .section-one, .section-two, .section-three, .section-form, .section-miniservices {
     padding: 0 20px 0 20px; }
-  .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p, .section-formP p {
+  .section-one p, .section-two p, .section-three p, .section-form p, .section-miniservices p {
     font-size: 1rem; }
-  .section-formP {
-    padding-top: 105px;
-    padding-bottom: 80px; }
   .section-three ul li img {
     width: 130px;
     height: 35px;
@@ -508,11 +492,8 @@ article a:not(.collapsed)::after {
     width: 100%; } }
 
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-  .section-one, .section-two, .section-three, .section-form, .section-miniservices, .section-formP {
+  .section-one, .section-two, .section-three, .section-form, .section-miniservices {
     padding: 0 10px 0 10px; }
-  .section-formP {
-    padding-top: 105px;
-    padding-bottom: 80px; }
   .uk-card-body {
     padding: 33px 20px 33px 20px !important; }
   #mySidenav {
