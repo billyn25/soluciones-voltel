@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  color: #565656;
+  color: #5a5a5a;
   font-family: "Oxygen", sans-serif !important;
 }
 
@@ -318,7 +318,7 @@ hr {
 }
 
 .modal .btn-primary:hover {
-  background-color: #565656;
+  background-color: #5a5a5a;
 }
 
 .imgProduct {
@@ -369,7 +369,7 @@ hr {
   display: none;
 }
 #div-cookies a:hover {
-  color: #565656;
+  color: #5a5a5a;
 }
 
 /*********************************
