@@ -262,6 +262,9 @@ hr {
 .section-form .cv div img {
   object-fit: cover; }
 
+.custom-control-label a:hover {
+  color: #bd1225 !important; }
+
 .divButtonPresupuesto {
   margin-top: 75px !important; }
 
@@ -316,6 +319,12 @@ hr {
 
 .uk-label {
   background-color: #bd1225 !important; }
+
+#div-cookies {
+  display: none; }
+
+#div-cookies a:hover {
+  color: white !important; }
 
 /*********************************
     Footer

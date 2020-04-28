@@ -313,17 +313,22 @@ hr {
   }
 }
 
-.section-form {
+.section-form{
   a:hover {
     color: $red-color !important;
   }
-
   .cv {
     margin-top: $margin-top-section;
 
     div img {
       object-fit: cover;
     }
+  }
+}
+
+.custom-control-label {
+  a:hover {
+    color: $red-color !important;
   }
 }
 
@@ -390,6 +395,13 @@ hr {
 }
 .uk-label{
   background-color: $red-color !important;
+}
+
+#div-cookies{
+  display: none;
+  a:hover {
+    color:white !important;
+  }
 }
 
 /*********************************
