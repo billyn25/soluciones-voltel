@@ -137,7 +137,7 @@ class Footer extends React.Component {
                 </a>
                     <div id="div-cookies" className="alert fixed-bottom alert-dismissible alert-warning p-3 mb-0 alert-heading">
                     Necesitamos usar cookies para que funcione todo correctamente, si permanece aquí acepta su uso, más información en <a hrefLang="es" className="font-weight-bold alert-link" href="aviso.html" target="_blank">Aviso Legal y Política de Privacidad</a>.
-                    <button type="button" className="btn btn-sm alert-dark m-1 pt-2 pb-2" onClick={acceptCookies}>
+                    <button type="button" className="btn btn-outline-danger m-1 pt-2 pb-2" onClick={acceptCookies}>
                         Acepto el uso de cookies
                     </button>
                 </div>
