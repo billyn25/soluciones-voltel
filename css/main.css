@@ -7,7 +7,7 @@ html {
   scroll-behavior: auto; }
 
 body {
-  color: #e95257;
+  color: #565656;
   font-family: "Oxygen", sans-serif !important; }
 
 li {
@@ -281,7 +281,7 @@ hr {
   border: 3px solid #bd1225 !important; }
 
 .modal .btn-primary:hover {
-  background-color: #e95257; }
+  background-color: #565656; }
 
 .imgProduct {
   margin-top: 90px;
@@ -324,7 +324,7 @@ hr {
   display: none; }
 
 #div-cookies a:hover {
-  color: #e95257; }
+  color: #565656; }
 
 /*********************************
     Footer
