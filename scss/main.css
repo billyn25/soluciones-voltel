@@ -403,7 +403,10 @@ hr {
 .copyright {
   font-size: 13px;
   font-weight: 700;
-  color: #6d6d6d;
+  color: #6d6d6d !important;
+}
+.copyright a {
+  color: #6d6d6d !important;
 }
 .copyright a:hover {
   color: #bd1225 !important;
