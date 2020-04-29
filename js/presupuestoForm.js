@@ -91,9 +91,9 @@ class Pform extends React.Component {
             <React.Fragment>
                 <form action="#" id="presuForm" onSubmit={(e) => this.handleClick(e)}>
                     {location.pathname.includes('contacto') === true && (
-                        <React.Fragment><h3 className="uk-card-title text-secondary text-center">Contacta con nuestro equipo</h3>
-                            <h5 className="text-center text-muted mt-2 mb-5">Nos encanta recibir nuevas ideas. Cuéntanos
-                                tu proyecto</h5>
+                        <React.Fragment>
+                            <h3 className="uk-card-title text-secondary text-center mt-0 mb-5">Nos encanta recibir nuevas ideas. Cuéntanos
+                                tu proyecto</h3>
                         </React.Fragment>)}
                     <div className="form-row">
                         <div className="form-group col-md-6">
