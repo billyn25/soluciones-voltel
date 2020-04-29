@@ -434,7 +434,10 @@ hr {
 .copyright {
   font-size: 13px;
   font-weight: 700;
-  color: $footer-color
+  color: $footer-color;
+  a:hover {
+    color: $red-color !important;
+  }
 }
 
 .footer_row {
