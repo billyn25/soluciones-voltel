@@ -456,10 +456,10 @@ hr {
   height: 3rem; }
 
 article a.collapsed::after {
-  content: "+ Ver más"; }
+  content: "+ Leer más"; }
 
 article a:not(.collapsed)::after {
-  content: "- Ver menos"; }
+  content: "- Leer menos"; }
 
 /* css para movil o tablet*/
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {

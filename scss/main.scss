@@ -552,11 +552,11 @@ hr {
 }
 
 article a.collapsed::after {
-  content: '+ Ver más';
+  content: '+ Leer más';
 }
 
 article a:not(.collapsed)::after {
-  content: '- Ver menos';
+  content: '- Leer menos';
 }
 
 /* css para movil o tablet*/
