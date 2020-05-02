@@ -656,6 +656,7 @@ article a:not(.collapsed)::after {
   }
 
   .imgArticle {
+    width: 100%;
     object-fit: contain;
   }
 }

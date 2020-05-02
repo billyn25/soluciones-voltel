@@ -511,6 +511,7 @@ article a:not(.collapsed)::after {
   .imgProduct img {
     width: 100%; }
   .imgArticle {
+    width: 100%;
     object-fit: contain; } }
 
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
