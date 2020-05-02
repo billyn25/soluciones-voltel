@@ -535,7 +535,7 @@ article a:not(.collapsed)::after {
 .imgArticle {
   width: 75% !important;
   height: 75% !important;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* css para movil o tablet*/
@@ -617,8 +617,7 @@ article a:not(.collapsed)::after {
   }
 
   .imgArticle {
-    width: 100%;
-    height: 100%;
+    object-fit: contain;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
