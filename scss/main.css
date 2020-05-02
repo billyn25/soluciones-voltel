@@ -532,6 +532,12 @@ article a:not(.collapsed)::after {
   content: "- Leer menos";
 }
 
+.imgArticle {
+  width: 75% !important;
+  height: 75% !important;
+  object-fit: cover;
+}
+
 /* css para movil o tablet*/
 @media only screen and (min-width: 0px) and (max-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
   header .navbar {
@@ -608,6 +614,11 @@ article a:not(.collapsed)::after {
 
   .imgProduct img {
     width: 100%;
+  }
+
+  .imgArticle {
+    width: 100%;
+    height: 100%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
