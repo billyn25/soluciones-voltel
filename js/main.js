@@ -6,12 +6,12 @@ function setDimensions() {
     let slider = $('.uk-slideshow-items');
     let overlay2 = $('.uk-overlay2');
     let sliderImg = $('.uk-slideshow-items img');
-    let overlayCenter = $('.uk-position-center,.uk-position-center-left,.uk-position-center-right');
+    let overlayCenter = $('.center');
 
     slider.css('height', windowsHeight + 'px');
     slider.css('width', windowsWidth + 'px');
 
-    //center overlay info slider
+    //center overlay info and arrow indicators of slider index
     overlayCenter.css('top', windowsHeight/2 + 'px');
 
     sliderImg.css('height', windowsHeight + 'px');
