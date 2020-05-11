@@ -13,7 +13,7 @@ class Services extends React.Component {
                         <a href="redes.html">
                             <img src="img/wifi.jpg" alt="voltel redes wifi o cable" className="uk-cover-container w-100 h-100"/>
                                 <div className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
-                                    <h5>INSTALACIÓN DE REDES</h5>
+                                    <h5>INSTALACIÓN DE REDES WIFI</h5>
                                 </div>
                         </a>
                     </div>
@@ -23,7 +23,7 @@ class Services extends React.Component {
                         <a href="certificaciones.html">
                             <img src="img/red_seccion.png" alt="voltel certificaciones utp" className="uk-cover-container w-100 h-100"/>
                                 <div className="uk-overlay uk-overlay-primary uk-position-center uk-light w-auto flex-nowrap">
-                                    <h5>CERTIFICACIONES UTP</h5>
+                                    <h5>CERTIFICACIÓN DE CABLEADO ESTRUCTURADO</h5>
                                 </div>
                         </a>
                     </div>
